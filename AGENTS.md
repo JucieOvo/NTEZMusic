@@ -2,7 +2,7 @@
 
 > **风险警告**：自动弹奏使用 Windows SendInput API（R3 级操作注入），可能触发游戏反作弊检测导致账号封禁。以**管理员身份**运行。开发者不对账号封禁负责。
 
-## 音频 → YAML（全管线：Demucs 分轨 + 钢琴转录 + 压缩）
+## 音频 → YAML（全管线：Demucs 分轨 + Transkun 转录 + 压缩）
 
 ```powershell
 python src/audio_to_yaml_converter.py `
@@ -53,15 +53,21 @@ python src/piano_auto_player.py --config config/song.yaml
 --max-score-events INT     最大事件数（默认 5000）
 --allow-accidentals        允许半音 token
 --out-of-range-policy {error,octave_fold}  超范围策略
---pitch-compression-mode {none,octave_fold,adaptive_octave_fold,hands_decoupled,attention_weighted}
+--pitch-compression-mode {none,octave_fold,adaptive_octave_fold,hands_decoupled,attention_weighted,svsep_mpdr,score_aware_theory}
 --ref-smoothing FLOAT      ref_pitch 平滑系数（默认 0.2）
---left-max-chord-notes INT  左手最大和弦音数（默认 2，仅 hands_decoupled / attention_weighted）
+--left-max-chord-notes INT  左手最大和弦音数（默认 3，仅 hands_decoupled / attention_weighted）
 --phrase-gap-beats FLOAT   休止符分割阈值拍数（默认 0.5，仅 hands_decoupled / attention_weighted）
 --global-trend-alpha FLOAT 全局趋势平滑系数（默认 0.05，仅 hands_decoupled / attention_weighted）
 --global-trend-window-beats FLOAT 趋势采样窗口拍数（默认 4.0，仅 hands_decoupled / attention_weighted）
 --demucs-model MODEL       Demucs 模型（默认 htdemucs_6s）
 --demucs-stem STEM         分轨目标（固定 piano，不可更改）
---transcription-checkpoint PATH  钢琴转录权重路径
+--transcription-checkpoint PATH  Transkun 模型权重 .pt 路径（不指定使用内置默认）
+--transcription-device {cpu,cuda}  Transkun 推理设备（默认 cpu）
+--transcription-segment-hop-size FLOAT  Transkun segment 步长秒数（默认使用模型值）
+--transcription-segment-size FLOAT  Transkun segment 尺寸秒数（默认使用模型值）
+--svsep-model-path PATH     piano_svsep 模型权重 .ckpt 路径（仅 svsep_mpdr）
+--svsep-device {cpu,cuda}   piano_svsep 推理设备（默认 cpu，仅 svsep_mpdr）
+--mpdr-*-*                  SVSEP-MPDR 候选、密度预算、旋律保护与精排参数
 ```
 
 ## 音高压缩模式
@@ -73,6 +79,8 @@ python src/piano_auto_player.py --config config/song.yaml
 | `adaptive_octave_fold` | 和弦统一 k + ref_pitch 平滑 |
 | `hands_decoupled` | 左右手解耦 + 三重验证 + 和声简化 |
 | `attention_weighted` | **推荐** — 小节滑动窗口 + 交叉注意力 + velocity 加权 + 精排 |
+| `svsep_mpdr` | GNN 左右手分离 + 主旋律动态规划 + MPDR 密度预算 + 五维精排 |
+| `score_aware_theory` | 乐谱语义感知缩编 — MIDI 清洗 + MusicXML 合规化 + 基础乐理角色分析 + 36 键缩编 |
 
 ## 预设模板
 

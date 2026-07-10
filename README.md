@@ -89,7 +89,7 @@ docs/                             # 技术文档
 - Python 3.10+
 - PyYAML, pretty_midi, librosa, scipy, soundfile
 - demucs (Hybrid Transformer Demucs)
-- piano_transcription_inference (CNN + CRF)
+- transkun (Neural Semi-CRF Transformer V2 Audio-to-MIDI)
 
 ## 许可
 

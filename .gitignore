@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Demucs 分轨音频（体积巨大，不纳入版本管理）
+work/*/demucs/
+
+# 合成渲染产物
+work/*/rendered.wav
+work/*/rendered.mid
+
+# Claude 配置
+.claude/
+
+# IDE
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.log
+
+# SoundFont (download separately)
+/work/

@@ -1,4 +1,5 @@
 PyYAML>=6.0.1
 pretty_midi>=0.2.10
+music21>=9.1.0
 demucs>=4.0.1
-piano_transcription_inference @ git+https://github.com/qiuqiangkong/piano_transcription_inference.git
+transkun
