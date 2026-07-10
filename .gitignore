@@ -2,24 +2,46 @@
 __pycache__/
 *.pyc
 *.pyo
+.pytest_cache/
 
-# Demucs 分轨音频（体积巨大，不纳入版本管理）
+# IDE 与开发工具
+.claude/
+.sisyphus/
+.superpowers/
+.vscode/
+.idea/
+
+# 大型音频文件（>100 MB 无法推送 GitHub）
+*.flac
+*.mp3
+*.wav
+
+# SoundFont 音源（1.2 GB）
+work/*/soundfont/
+
+# Demucs 分轨音频（体积巨大）
 work/*/demucs/
-
-# 合成渲染产物
-work/*/rendered.wav
-work/*/rendered.mid
+work/*/source_work/
 
 # Claude 配置
 .claude/
 
-# IDE
-.vscode/
-.idea/
-
 # 临时文件
 *.tmp
 *.log
+Thumbs.db
+Desktop.ini
 
-# SoundFont (download separately)
-/work/
+# docs 待整理，暂不纳入版本管理
+/docs/
+
+# 独立项目与临时脚本
+/ANo/
+/UpAgain/
+/rel/
+/piano_svsep/
+play_upagain.bat
+list_mumu_windows.py
+
+# docs 待整理
+/docs/
