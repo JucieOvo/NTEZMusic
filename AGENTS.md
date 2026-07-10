@@ -2,7 +2,7 @@
 
 > **风险警告**：自动弹奏使用 Windows SendInput API（R3 级操作注入），可能触发游戏反作弊检测导致账号封禁。以**管理员身份**运行。开发者不对账号封禁负责。
 
-## 音频 → YAML（全管线：Demucs 分轨 + Transkun 转录 + 压缩）
+## 音频 -> YAML（全管线：Demucs 分轨 + Transkun 转录 + 压缩）
 
 ```powershell
 python src/audio_to_yaml_converter.py `
@@ -11,12 +11,12 @@ python src/audio_to_yaml_converter.py `
   --work-dir "work/song" `
   --song-name "曲名" `
   --bpm 0 `
-  --pitch-compression-mode attention_weighted `
+  --pitch-compression-mode adaptive_octave_fold `
   --allow-accidentals `
   --out-of-range-policy octave_fold
 ```
 
-## MIDI → YAML（跳过 Demucs 和转录，直接压缩）
+## MIDI -> YAML（跳过 Demucs 和转录，直接压缩）
 
 ```powershell
 python src/audio_to_yaml_converter.py `
@@ -25,7 +25,7 @@ python src/audio_to_yaml_converter.py `
   --work-dir "work/song" `
   --song-name "曲名" `
   --bpm 126 `
-  --pitch-compression-mode attention_weighted `
+  --pitch-compression-mode adaptive_octave_fold `
   --allow-accidentals `
   --out-of-range-policy octave_fold
 ```
@@ -53,7 +53,7 @@ python src/piano_auto_player.py --config config/song.yaml
 --max-score-events INT     最大事件数（默认 5000）
 --allow-accidentals        允许半音 token
 --out-of-range-policy {error,octave_fold}  超范围策略
---pitch-compression-mode {none,octave_fold,adaptive_octave_fold,hands_decoupled,attention_weighted,svsep_mpdr,score_aware_theory}
+--pitch-compression-mode {adaptive_octave_fold,attention_weighted,hands_decoupled,svsep_mpdr,octave_fold,none}
 --ref-smoothing FLOAT      ref_pitch 平滑系数（默认 0.2）
 --left-max-chord-notes INT  左手最大和弦音数（默认 3，仅 hands_decoupled / attention_weighted）
 --phrase-gap-beats FLOAT   休止符分割阈值拍数（默认 0.5，仅 hands_decoupled / attention_weighted）
@@ -72,15 +72,16 @@ python src/piano_auto_player.py --config config/song.yaml
 
 ## 音高压缩模式
 
-| 模式 | 说明 |
-|------|------|
-| `none` | 不压缩，超范围直接报错 |
-| `octave_fold` | 逐音独立八度折叠 |
-| `adaptive_octave_fold` | 和弦统一 k + ref_pitch 平滑 |
-| `hands_decoupled` | 左右手解耦 + 三重验证 + 和声简化 |
-| `attention_weighted` | **推荐** — 小节滑动窗口 + 交叉注意力 + velocity 加权 + 精排 |
-| `svsep_mpdr` | GNN 左右手分离 + 主旋律动态规划 + MPDR 密度预算 + 五维精排 |
-| `score_aware_theory` | 乐谱语义感知缩编 — MIDI 清洗 + MusicXML 合规化 + 基础乐理角色分析 + 36 键缩编 |
+| 模式 | 原理 | 推荐度 |
+|------|------|:---:|
+| `adaptive_octave_fold` | 和弦统一八度偏移 k + ref_pitch 指数平滑 | **默认** |
+| `attention_weighted` | 小节滑动窗口 + 交叉注意力 + velocity 加权 + 精排 | 推荐 |
+| `hands_decoupled` | 左右手解耦 + 三重验证 + 和声功能简化 | 推荐 |
+| `svsep_mpdr` | GNN 左右手分离 + 主旋律 DP + MPDR 密度预算 + 五维精排 | 推荐 |
+| `octave_fold` | 逐音独立八度折叠（无上下文） | 不推荐 |
+| `none` | 不压缩，超范围直接报错 | 仅窄音域 |
+
+> `score_aware_theory` 模式已在 v3 基准评测中淘汰，不再推荐使用。
 
 ## 预设模板
 
@@ -92,7 +93,7 @@ python src/audio_to_yaml_converter.py `
   --output-yaml config/cruel_angel_final.yaml `
   --work-dir work/cruel_angel_final `
   --song-name "残酷天使的行动纲领" --bpm 126 `
-  --pitch-compression-mode attention_weighted `
+  --pitch-compression-mode adaptive_octave_fold `
   --allow-accidentals --out-of-range-policy octave_fold --max-chord-notes 6 `
   --left-max-chord-notes 3 --phrase-gap-beats 0.5 `
   --global-trend-alpha 0.05 --global-trend-window-beats 4.0
@@ -106,11 +107,10 @@ python src/audio_to_yaml_converter.py `
   --output-yaml "config/song.yaml" `
   --work-dir "work/song" `
   --song-name "曲名" --bpm 0 `
-  --pitch-compression-mode attention_weighted `
+  --pitch-compression-mode adaptive_octave_fold `
   --allow-accidentals --out-of-range-policy octave_fold --max-chord-notes 6 `
   --left-max-chord-notes 3 --phrase-gap-beats 0.5 `
   --global-trend-alpha 0.05 --global-trend-window-beats 4.0
 ```
 
-> BPM 自动检测：音频文件使用 librosa onset 检测真实 BPM，并写入转录 MIDI 的 tempo 轨道。
-> 后续用 `--input-midi` 复用同一 MIDI 时不再需要 BPM 参数。
+> BPM 自动检测：音频文件使用 librosa onset 检测真实 BPM，并写入转录 MIDI 的 tempo 轨道。后续用 `--input-midi` 复用同一 MIDI 时不再需要 BPM 参数。
