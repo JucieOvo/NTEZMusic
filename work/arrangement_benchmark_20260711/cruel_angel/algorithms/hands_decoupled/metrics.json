@@ -1,0 +1,25 @@
+{
+  "song_slug": "cruel_angel",
+  "mode": "hands_decoupled",
+  "score": 0.4689482725901958,
+  "metrics": {
+    "melody": 0.28518762476264303,
+    "rhythm": 0.6230717639168343,
+    "bass": 0.317064823806711,
+    "voice_register": 0.27910214554209983,
+    "harmony": 0.4913906157016754,
+    "audio_features": 0.9928895235061646
+  },
+  "weights": {
+    "melody": 0.25,
+    "audio_features": 0.1,
+    "harmony": 0.2,
+    "voice_register": 0.1,
+    "bass": 0.15,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "ed7c6543a493a2fb161dbeab2b1c7c2356d5741272121f9d177af78868c64bec",
+  "reduced_midi_sha256": "2a6d61d9085c914f09a854f82ad43de8eeb10593ce8481fba3bea8e012252b14",
+  "wav_sha256": "6b2e02c8cadf6c1be5ddf6a967d63805b0872fe1f614c1e56531059f85d5459b",
+  "mp3_sha256": "bdde29e1a6b1e627c8431ea6770674035cae1127fbbb8255ef5905c288da15da"
+}

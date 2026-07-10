@@ -1,0 +1,25 @@
+{
+  "song_slug": "tada_koe_hitotsu",
+  "mode": "hands_decoupled",
+  "score": 0.5175432326137233,
+  "metrics": {
+    "melody": 0.33328565585450115,
+    "rhythm": 0.7272727272727272,
+    "bass": 0.38331454963501144,
+    "voice_register": 0.3126596014841794,
+    "harmony": 0.5034511685371399,
+    "audio_features": 0.9931389689445496
+  },
+  "weights": {
+    "melody": 0.25,
+    "audio_features": 0.1,
+    "harmony": 0.2,
+    "voice_register": 0.1,
+    "bass": 0.15,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "2f2e82e2578074b95e81337f5245f394c672d11efbf206417cc675ab42523196",
+  "reduced_midi_sha256": "3f8f73969b5abbe47d51b87c22bb5ae6261c276b5e2ee07e4cae5f62c07595e4",
+  "wav_sha256": "e7e797d7ac9c49af0160fb83d859d353a29d5cd78c6dd6fea88688cbe0255816",
+  "mp3_sha256": "2fa9e0de28f1b8c0aadce936fb14b167609d0db9ec46a3e35e31b8a81e812479"
+}

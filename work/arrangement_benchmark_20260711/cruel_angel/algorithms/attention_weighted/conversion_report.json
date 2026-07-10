@@ -1,0 +1,31 @@
+{
+  "song_slug": "cruel_angel",
+  "mode": "attention_weighted",
+  "reference_midi_path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\reference\\base_midi\\song.mid",
+  "bpm_sidecar": 129.2,
+  "midi_build": {
+    "output_midi_path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\attention_weighted\\reduced.mid",
+    "note_count": 2714,
+    "event_count": 2236,
+    "max_simultaneous_notes": 6,
+    "min_pitch": 48,
+    "max_pitch": 83,
+    "duration_seconds": 285.9520123838989
+  },
+  "conversion_stats": {
+    "pitch_compression_mode": "attention_weighted",
+    "raw_note_count": 3272,
+    "output_note_count": 2714,
+    "remapped_notes": 558,
+    "octave_moved_notes": 16744,
+    "deduplicated_notes": 0,
+    "clipped_notes": 558,
+    "max_original_chord_notes": 13,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 0,
+    "ref_pitch_trajectory_start": 0.0,
+    "ref_pitch_trajectory_end": 0.0,
+    "onset_clustered_notes": 0,
+    "onset_clustered_groups": 0
+  }
+}

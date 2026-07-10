@@ -1,0 +1,31 @@
+{
+  "song_slug": "mousou_aika_remix",
+  "mode": "attention_weighted",
+  "reference_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\reference\\base_midi\\song.mid",
+  "bpm_sidecar": 117.5,
+  "midi_build": {
+    "output_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\attention_weighted\\reduced.mid",
+    "note_count": 1986,
+    "event_count": 1331,
+    "max_simultaneous_notes": 6,
+    "min_pitch": 49,
+    "max_pitch": 83,
+    "duration_seconds": 173.61702127659393
+  },
+  "conversion_stats": {
+    "pitch_compression_mode": "attention_weighted",
+    "raw_note_count": 2288,
+    "output_note_count": 1986,
+    "remapped_notes": 302,
+    "octave_moved_notes": 9363,
+    "deduplicated_notes": 0,
+    "clipped_notes": 302,
+    "max_original_chord_notes": 6,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 0,
+    "ref_pitch_trajectory_start": 0.0,
+    "ref_pitch_trajectory_end": 0.0,
+    "onset_clustered_notes": 0,
+    "onset_clustered_groups": 0
+  }
+}

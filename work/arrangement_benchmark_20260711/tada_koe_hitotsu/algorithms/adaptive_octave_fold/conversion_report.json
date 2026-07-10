@@ -1,0 +1,31 @@
+{
+  "song_slug": "tada_koe_hitotsu",
+  "mode": "adaptive_octave_fold",
+  "reference_midi_path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\reference\\base_midi\\song.mid",
+  "bpm_sidecar": 129.2,
+  "midi_build": {
+    "output_midi_path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\adaptive_octave_fold\\reduced.mid",
+    "note_count": 1569,
+    "event_count": 1168,
+    "max_simultaneous_notes": 6,
+    "min_pitch": 48,
+    "max_pitch": 83,
+    "duration_seconds": 153.48297213622186
+  },
+  "conversion_stats": {
+    "pitch_compression_mode": "adaptive_octave_fold",
+    "raw_note_count": 1643,
+    "output_note_count": 1569,
+    "remapped_notes": 762,
+    "octave_moved_notes": 762,
+    "deduplicated_notes": 0,
+    "clipped_notes": 0,
+    "max_original_chord_notes": 6,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 74,
+    "ref_pitch_trajectory_start": 65.5,
+    "ref_pitch_trajectory_end": 73.41491773439549,
+    "onset_clustered_notes": 0,
+    "onset_clustered_groups": 0
+  }
+}

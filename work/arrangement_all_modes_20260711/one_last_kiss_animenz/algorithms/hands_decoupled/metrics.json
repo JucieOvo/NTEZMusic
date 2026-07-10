@@ -1,0 +1,25 @@
+{
+  "song_slug": "one_last_kiss_animenz",
+  "mode": "hands_decoupled",
+  "score": 0.4676217970740431,
+  "metrics": {
+    "melody": 0.32858865161503387,
+    "rhythm": 0.5472279260780288,
+    "bass": 0.32271930656634157,
+    "voice_register": 0.2553588447226059,
+    "harmony": 0.5152370929718018,
+    "audio_features": 0.9903784990310669
+  },
+  "weights": {
+    "bass": 0.15,
+    "melody": 0.25,
+    "voice_register": 0.1,
+    "harmony": 0.2,
+    "audio_features": 0.1,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "abb01438ec31700db9caf97bcbc3bf01a4a6130973e0acd1155c8ac43eb5a530",
+  "reduced_midi_sha256": "cb5721d2da069d09b192fafab48add1b9064992736dd47df96b4dd88c2ec3bfb",
+  "wav_sha256": "8f320fa1e144e0c6821a7e68c75cc04b8b0d5a687a9270774ee288d211f6e6b8",
+  "mp3_sha256": "2c8bd997bbef822c8f1b8f5f1060c99d75e189440b72505c810ddadd0a04e680"
+}

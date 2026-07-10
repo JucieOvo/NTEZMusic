@@ -1,0 +1,31 @@
+{
+  "song_slug": "one_last_kiss_animenz",
+  "mode": "adaptive_octave_fold",
+  "reference_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\reference\\base_midi\\song.mid",
+  "bpm_sidecar": 112.3,
+  "midi_build": {
+    "output_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\adaptive_octave_fold\\reduced.mid",
+    "note_count": 2234,
+    "event_count": 1588,
+    "max_simultaneous_notes": 6,
+    "min_pitch": 49,
+    "max_pitch": 83,
+    "duration_seconds": 260.3294746215452
+  },
+  "conversion_stats": {
+    "pitch_compression_mode": "adaptive_octave_fold",
+    "raw_note_count": 2429,
+    "output_note_count": 2234,
+    "remapped_notes": 897,
+    "octave_moved_notes": 897,
+    "deduplicated_notes": 0,
+    "clipped_notes": 2,
+    "max_original_chord_notes": 7,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 193,
+    "ref_pitch_trajectory_start": 65.5,
+    "ref_pitch_trajectory_end": 79.03326793245417,
+    "onset_clustered_notes": 0,
+    "onset_clustered_groups": 0
+  }
+}

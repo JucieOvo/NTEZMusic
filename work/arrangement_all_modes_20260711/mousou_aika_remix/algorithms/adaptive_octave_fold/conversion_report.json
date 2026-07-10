@@ -1,0 +1,31 @@
+{
+  "song_slug": "mousou_aika_remix",
+  "mode": "adaptive_octave_fold",
+  "reference_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\reference\\base_midi\\song.mid",
+  "bpm_sidecar": 117.5,
+  "midi_build": {
+    "output_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\adaptive_octave_fold\\reduced.mid",
+    "note_count": 2155,
+    "event_count": 1331,
+    "max_simultaneous_notes": 6,
+    "min_pitch": 49,
+    "max_pitch": 83,
+    "duration_seconds": 173.61702127659393
+  },
+  "conversion_stats": {
+    "pitch_compression_mode": "adaptive_octave_fold",
+    "raw_note_count": 2288,
+    "output_note_count": 2155,
+    "remapped_notes": 871,
+    "octave_moved_notes": 871,
+    "deduplicated_notes": 0,
+    "clipped_notes": 0,
+    "max_original_chord_notes": 6,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 133,
+    "ref_pitch_trajectory_start": 65.5,
+    "ref_pitch_trajectory_end": 76.10073119414693,
+    "onset_clustered_notes": 0,
+    "onset_clustered_groups": 0
+  }
+}

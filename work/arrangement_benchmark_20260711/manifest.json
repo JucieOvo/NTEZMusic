@@ -1,0 +1,373 @@
+{
+  "experiment_id": "arrangement_benchmark_20260711",
+  "generated_at": "2026-07-11T04:18:13.581875+08:00",
+  "source_songs": {
+    "cruel_angel": {
+      "source_mp3": "F:\\NTEZMusic\\【Animenz】残酷天使的行动纲领 – 新世纪福音战士 OP1 钢琴版.mp3",
+      "source_mp3_sha256": "4600538ed9949f87f9462935358a2bbeeadfb63f60217ba14151007f1fc3ba7e",
+      "bpm_sidecar": 129.2,
+      "reference_midi": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\reference\\base_midi\\song.mid",
+      "reference_midi_sha256": "ed7c6543a493a2fb161dbeab2b1c7c2356d5741272121f9d177af78868c64bec"
+    },
+    "tada_koe_hitotsu": {
+      "source_mp3": "F:\\NTEZMusic\\ただ声一つ (只想说一声) - ロクデナシ.mp3",
+      "source_mp3_sha256": "4b1274c4b5ad2346979ffa7c077456ce23f87d975fbd106eb097179df387ff16",
+      "bpm_sidecar": 129.2,
+      "reference_midi": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\reference\\base_midi\\song.mid",
+      "reference_midi_sha256": "2f2e82e2578074b95e81337f5245f394c672d11efbf206417cc675ab42523196"
+    }
+  },
+  "soundfont": {
+    "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\soundfont\\SalamanderGrandPiano-SF2-V3+20200602\\SalamanderGrandPiano-V3+20200602.sf2",
+    "sha256": "712d0e681efbe5203a8014e9b3e84168f1908c82f2f6fb13bd2c77d6d72c70b7",
+    "source_url": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "expected_sha256": "712d0e681efbe5203a8014e9b3e84168f1908c82f2f6fb13bd2c77d6d72c70b7"
+  },
+  "ranking_path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\reports\\ranking.json",
+  "top_blind_modes": [
+    "svsep_mpdr",
+    "adaptive_octave_fold"
+  ],
+  "failures": {
+    "octave_fold": {
+      "cruel_angel": "候选 octave_fold 违反硬约束: YAML 存在超过 6 音的同时事件"
+    }
+  },
+  "candidate_modes": [
+    "octave_fold",
+    "adaptive_octave_fold",
+    "hands_decoupled",
+    "attention_weighted",
+    "svsep_mpdr"
+  ],
+  "score_aware_mode": "score_aware_theory",
+  "parameters": {
+    "reduced_velocity": 80,
+    "common_parameters": {
+      "beat_unit": 4,
+      "start_delay_seconds": 3.0,
+      "key_press_seconds": 0.0,
+      "quantize_beat": 0.25,
+      "max_chord_notes": 6,
+      "max_score_events": 5000,
+      "allow_accidentals": true,
+      "out_of_range_policy": "octave_fold",
+      "ref_smoothing": 0.2,
+      "left_max_chord_notes": 3,
+      "phrase_gap_beats": 0.5,
+      "global_trend_alpha": 0.05,
+      "global_trend_window_beats": 4.0
+    },
+    "rendering": {
+      "sample_rate": 44100,
+      "mp3_bitrate": "320k"
+    },
+    "audio_metrics": {
+      "frame_seconds": 0.1,
+      "n_mfcc": 20
+    },
+    "metric_weights": {
+      "melody": 0.25,
+      "audio_features": 0.1,
+      "harmony": 0.2,
+      "voice_register": 0.1,
+      "bass": 0.15,
+      "rhythm": 0.2
+    }
+  },
+  "artifacts": {
+    "cruel_angel": {
+      "reference": {
+        "midi": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\reference\\base_midi\\song.mid",
+          "sha256": "ed7c6543a493a2fb161dbeab2b1c7c2356d5741272121f9d177af78868c64bec"
+        },
+        "wav": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\reference\\audio\\original_grand_piano.wav",
+          "sha256": "d08dad1f934ca5e5ec55cc14c11763ad7742651f7af61c5abb12ae41dbae2b49"
+        },
+        "mp3": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\reference\\audio\\original_grand_piano.mp3",
+          "sha256": "4192de806c6eb23d0a42e0d2db57a55d9b4394bc0bec0c7657d873dbcc1754a2"
+        }
+      },
+      "candidates": {
+        "adaptive_octave_fold": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\adaptive_octave_fold\\reduced.yaml",
+            "sha256": "71e3ccbc6b7c11cd11e4d183f037ff7ce94e577a6f74c038596f45560e23cda9"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\adaptive_octave_fold\\reduced.mid",
+            "sha256": "a54554999a37b6e05aadcebf7c57b0c7c4bea6a49ffb9b8f342ec7e0e836d480"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\adaptive_octave_fold\\reduced_piano.wav",
+            "sha256": "9b3d3c8d3d2eed28eeb37394277b19cfd7b998ce2a6c54f77f166f69f401e7f8"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\adaptive_octave_fold\\reduced_piano.mp3",
+            "sha256": "96f8a451051f7900fdfd7a84ec9956dfca3cc2f37114a73c193a163a2cd9d74f"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\adaptive_octave_fold\\metrics.json",
+            "sha256": "467138e6c3b4e2d4b4d99d0fab2cc5e3264de23a6b18c8e071ef2f44a6b8b2af"
+          }
+        },
+        "hands_decoupled": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\hands_decoupled\\reduced.yaml",
+            "sha256": "45410ef5e3bb116b4055a5bd0d5382a7054bdcb668ef8077036e65501cc6ca90"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\hands_decoupled\\reduced.mid",
+            "sha256": "2a6d61d9085c914f09a854f82ad43de8eeb10593ce8481fba3bea8e012252b14"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\hands_decoupled\\reduced_piano.wav",
+            "sha256": "6b2e02c8cadf6c1be5ddf6a967d63805b0872fe1f614c1e56531059f85d5459b"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\hands_decoupled\\reduced_piano.mp3",
+            "sha256": "bdde29e1a6b1e627c8431ea6770674035cae1127fbbb8255ef5905c288da15da"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\hands_decoupled\\metrics.json",
+            "sha256": "17bd8840a36bb647c409bd02ef98afa2976e3181566dbd3be6a09a216a9b1145"
+          }
+        },
+        "attention_weighted": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\attention_weighted\\reduced.yaml",
+            "sha256": "8f9c672d249cb566db0cd6c4843b8c557b75758aa0b12f07951786896fc63dc0"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\attention_weighted\\reduced.mid",
+            "sha256": "3aef917b7fe95f14a5609abb9cf82f77dd6e448a445eed4887339c91f95bbd09"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\attention_weighted\\reduced_piano.wav",
+            "sha256": "73da30848eaa6daec830c0aedcea53dbc96cde892fe2b7b5ac658bd8d09c83b1"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\attention_weighted\\reduced_piano.mp3",
+            "sha256": "3afd1482e4dcba49755f9488842165e195ff8b10adec8bcfe9505f4a3ba75aa5"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\attention_weighted\\metrics.json",
+            "sha256": "e4af2bfbbe24f486acaeaf5ca3888f13d44c186becee97c94951fce7ed071da1"
+          }
+        },
+        "svsep_mpdr": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\svsep_mpdr\\reduced.yaml",
+            "sha256": "85b5e712b90a509a179f578b8ec864dc3a9fef3df6e3e2d8100cc635241d905b"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\svsep_mpdr\\reduced.mid",
+            "sha256": "24e5b142a3599d7608183dee68aae0a10889b2924eb5178475014e8365e8cf33"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\svsep_mpdr\\reduced_piano.wav",
+            "sha256": "51bdd15bb776a89a2f57499b67ff973796f9857a3df7253e5f69731d8e60ff53"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\svsep_mpdr\\reduced_piano.mp3",
+            "sha256": "8476c805c7b7c43fe277145f8a892b8f9739e61b1fb480004c954de4e70b3951"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\svsep_mpdr\\metrics.json",
+            "sha256": "4773e40fda3dd5db7a0cd08b6b0f848f52cda100909f0ed73419d1e517f5f803"
+          }
+        },
+        "score_aware_theory": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\score_aware_theory\\reduced.yaml",
+            "sha256": "b3d8e4cad7ef0d98b0cf67c56de8e3fc73a7c4371eaa7c74ce042680ca1b9f1a"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\score_aware_theory\\reduced.mid",
+            "sha256": "84a3d3f1877b7b2fa5c931af5d5fd5312b8a6a9b99eac1ce5e16bf1eb00b123e"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\score_aware_theory\\reduced_piano.wav",
+            "sha256": "ec0ffa3a3c70715c08c0339491894a77bbb8d01ffdff4eddc30d463193119c39"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\score_aware_theory\\reduced_piano.mp3",
+            "sha256": "4e3eb45eda5b2720c1ed2a256da9b1c57030d2016294d395395a0b54d755a84a"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\score_aware_theory\\metrics.json",
+            "sha256": "817560f59ba44ef56768bf545f5a44a89809d985b6f11be4ea7b422ec2a7a36d"
+          }
+        }
+      }
+    },
+    "tada_koe_hitotsu": {
+      "reference": {
+        "midi": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\reference\\base_midi\\song.mid",
+          "sha256": "2f2e82e2578074b95e81337f5245f394c672d11efbf206417cc675ab42523196"
+        },
+        "wav": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\reference\\audio\\original_grand_piano.wav",
+          "sha256": "c26b446f3769df91d779d73415c5b5e6b342eedf31a08e15977bf904e13650b9"
+        },
+        "mp3": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\reference\\audio\\original_grand_piano.mp3",
+          "sha256": "6c1dd5a3b5b4c55fdcb5759dddc7debaf9f0b506b7b8c4f5b824e85cdeab795c"
+        }
+      },
+      "candidates": {
+        "octave_fold": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\octave_fold\\reduced.yaml",
+            "sha256": "a94f0edb3fa41f6406c17f7ded4e3dce25dc4964c4d6f4e0d9c95778350e17e4"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\octave_fold\\reduced.mid",
+            "sha256": "6a5268a75ca4cf8e3326be77fc2f9e2d4e522e24ce30352893573a52b555595c"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\octave_fold\\reduced_piano.wav",
+            "sha256": "b8e205dfc34ef7082663080bf7eb1839df3684bb3f63701e6122341930d365a6"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\octave_fold\\reduced_piano.mp3",
+            "sha256": "d74ff1b7a65dd2e40142e3be37101ff2f3c88cf7667752ef7571167ae3242094"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\octave_fold\\metrics.json",
+            "sha256": "1edb00055983db5935af5b8ca3af02b4ed5dbdd76a2f876b000c5b40d02126b0"
+          }
+        },
+        "adaptive_octave_fold": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\adaptive_octave_fold\\reduced.yaml",
+            "sha256": "8004d9be4aa39222893e1d5e26bdad8d87e3c288fa13c46907ef8904cfaa9e72"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\adaptive_octave_fold\\reduced.mid",
+            "sha256": "a51681b4200935bb567deaaf03a618db62034f20e952910a3a16f4093be89ad0"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\adaptive_octave_fold\\reduced_piano.wav",
+            "sha256": "ed05ebdbe00b7c6d2ab885654ca250ab4d696a56f3f67260e293ce449a2f0086"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\adaptive_octave_fold\\reduced_piano.mp3",
+            "sha256": "1a21e487671890c03c4039d9ee16dcff30c6a5efd82b0fbf208d2976638b5010"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\adaptive_octave_fold\\metrics.json",
+            "sha256": "c7816b85b9a6f225fb51fdae3b54a7f272f4ef5568448a108a74782a4a9f771c"
+          }
+        },
+        "hands_decoupled": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\hands_decoupled\\reduced.yaml",
+            "sha256": "23b094048bff0f2606bb36e007c449e1a8ecaa140ad7044a67db263532c3b108"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\hands_decoupled\\reduced.mid",
+            "sha256": "3f8f73969b5abbe47d51b87c22bb5ae6261c276b5e2ee07e4cae5f62c07595e4"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\hands_decoupled\\reduced_piano.wav",
+            "sha256": "e7e797d7ac9c49af0160fb83d859d353a29d5cd78c6dd6fea88688cbe0255816"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\hands_decoupled\\reduced_piano.mp3",
+            "sha256": "2fa9e0de28f1b8c0aadce936fb14b167609d0db9ec46a3e35e31b8a81e812479"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\hands_decoupled\\metrics.json",
+            "sha256": "169c48c6e3ea6949d5d5d5dd1b4502e27a238d31f06abf601a6039417026162a"
+          }
+        },
+        "attention_weighted": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\attention_weighted\\reduced.yaml",
+            "sha256": "601ce9a8efd9f020e0da0ca4ea7af1134de5680139262ea61ecc5b8cdcb23fcc"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\attention_weighted\\reduced.mid",
+            "sha256": "3e0537116f87c4aec0376903f316bd258bdd7117560a9fac7bbfc00ca64a9002"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\attention_weighted\\reduced_piano.wav",
+            "sha256": "875048aa4ad6d8c35806742f55dc9a0f9afed532497cbdd2e3c166e0596db73f"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\attention_weighted\\reduced_piano.mp3",
+            "sha256": "040fa3f7c5e0d64b28614e17e27faf7b4b489f3e419cb77a7fb2f32443dea8ba"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\attention_weighted\\metrics.json",
+            "sha256": "7623c282007fd595320fe12179007c13eccdd7296e74eb006babef4a38549cbc"
+          }
+        },
+        "svsep_mpdr": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\svsep_mpdr\\reduced.yaml",
+            "sha256": "015e4c19d8f4ce634bf292f7b4bb166236040a88821d978b847d72bb6fcf8a43"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\svsep_mpdr\\reduced.mid",
+            "sha256": "e72236595db8ccefff52d3a0f9e2dde5ed23efb2f7842e56a3118826c1b314a3"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\svsep_mpdr\\reduced_piano.wav",
+            "sha256": "a36ff971f0c9b73361d0caf488975e0c3bed29ef5afe0baae2205d5b30f4fdbb"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\svsep_mpdr\\reduced_piano.mp3",
+            "sha256": "8a1fff8ca81b40ba3ad4cfc446715509b25d3a767d2fc203230e397b38915f81"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\svsep_mpdr\\metrics.json",
+            "sha256": "0475ad0d9fa4268aad52762f7a31d3ead7233d5b4444899e68494641310a3933"
+          }
+        },
+        "score_aware_theory": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\score_aware_theory\\reduced.yaml",
+            "sha256": "296328e637d48dda69ec618873e3eafe22fbeb6ccc5b8efc5db0eae490330347"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\score_aware_theory\\reduced.mid",
+            "sha256": "fceeefe9ef0b10a22d6cbd74af73227ef1380869edab2397596cdb708e6cf89e"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\score_aware_theory\\reduced_piano.wav",
+            "sha256": "f6ad3b7fbcbce49ee192c9e3482a74e998d06b0e8613bd04b83cb06d263c394f"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\score_aware_theory\\reduced_piano.mp3",
+            "sha256": "6ffd017264d863dadea4f8933e837b36d98568ac5150d3e1cfc287f2189d1a93"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tada_koe_hitotsu\\algorithms\\score_aware_theory\\metrics.json",
+            "sha256": "11f9d21c19ca312bbb42cd954f1f8c0e0dc620eb266d6018c08831d6ed175cbf"
+          }
+        }
+      }
+    }
+  },
+  "tools": {
+    "fluidsynth": {
+      "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tools\\fluidsynth-v2.5.6\\fluidsynth-v2.5.6-win10-x64-cpp11\\bin\\fluidsynth.exe",
+      "sha256": "23bfbfa8d2e8fe88cb2698969e06fce8ed56217de834133904884784ff69ed1e"
+    },
+    "ffmpeg": {
+      "path": "C:\\Users\\15311\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.exe",
+      "sha256": "74db6c184a03dba2bdfe23e1a1f41cf5a8385bc1de6a7a1b26db1dc541abef93"
+    }
+  },
+  "blind_mapping": {
+    "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\blind_listening\\mapping_sealed.json",
+    "sha256": "c48fbaac96bd77d6d3eaea1461457935f57e31f136fd3594f337395703bb0a58"
+  }
+}

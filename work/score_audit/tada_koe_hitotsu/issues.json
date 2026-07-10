@@ -1,0 +1,3974 @@
+[
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 1,
+    "start_beat": 2.0,
+    "estimated_2_4_bar": 2,
+    "estimated_4_4_bar": 1,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      13
+    ],
+    "event_details": [
+      {
+        "event_index": 13,
+        "start_beat": 3.25,
+        "raw": "[-#5 b7]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 2,
+    "start_beat": 4.0,
+    "estimated_2_4_bar": 3,
+    "estimated_4_4_bar": 2,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      17
+    ],
+    "event_details": [
+      {
+        "event_index": 17,
+        "start_beat": 4.25,
+        "raw": "[-#5 +1 +b3]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          72,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 5,
+    "start_beat": 10.0,
+    "estimated_2_4_bar": 6,
+    "estimated_4_4_bar": 3,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      43,
+      47
+    ],
+    "event_details": [
+      {
+        "event_index": 43,
+        "start_beat": 10.75,
+        "raw": "[-#5 b7]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          70
+        ]
+      },
+      {
+        "event_index": 47,
+        "start_beat": 11.75,
+        "raw": "[#5 +1 +b3]",
+        "note_count": 3,
+        "pitches": [
+          68,
+          72,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 9,
+    "start_beat": 18.0,
+    "estimated_2_4_bar": 10,
+    "estimated_4_4_bar": 5,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      71,
+      75
+    ],
+    "event_details": [
+      {
+        "event_index": 71,
+        "start_beat": 18.0,
+        "raw": "[-#5 b7 +1]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          70,
+          72
+        ]
+      },
+      {
+        "event_index": 75,
+        "start_beat": 19.0,
+        "raw": "[#5 +1 +b3]",
+        "note_count": 3,
+        "pitches": [
+          68,
+          72,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "节奏织体块状化",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 11,
+    "start_beat": 22.0,
+    "estimated_2_4_bar": 12,
+    "estimated_4_4_bar": 6,
+    "evidence": "2拍窗口内参考起音 7 个，目标起音 2 个，快速织体可能被压成块。",
+    "events": [
+      88,
+      90
+    ],
+    "event_details": [
+      {
+        "event_index": 88,
+        "start_beat": 22.75,
+        "raw": "[2 +2 +4]",
+        "note_count": 3,
+        "pitches": [
+          62,
+          74,
+          77
+        ]
+      },
+      {
+        "event_index": 90,
+        "start_beat": 23.75,
+        "raw": "[1 b3 5]",
+        "note_count": 3,
+        "pitches": [
+          60,
+          63,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 12,
+    "start_beat": 24.0,
+    "estimated_2_4_bar": 13,
+    "estimated_4_4_bar": 7,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      97
+    ],
+    "event_details": [
+      {
+        "event_index": 97,
+        "start_beat": 25.5,
+        "raw": "[-#5 b7]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 13,
+    "start_beat": 26.0,
+    "estimated_2_4_bar": 14,
+    "estimated_4_4_bar": 7,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      101
+    ],
+    "event_details": [
+      {
+        "event_index": 101,
+        "start_beat": 26.5,
+        "raw": "[#5 +1 +b3]",
+        "note_count": 3,
+        "pitches": [
+          68,
+          72,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 15,
+    "start_beat": 30.0,
+    "estimated_2_4_bar": 16,
+    "estimated_4_4_bar": 8,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      119
+    ],
+    "event_details": [
+      {
+        "event_index": 119,
+        "start_beat": 31.0,
+        "raw": "[-#5 b7 +b7]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          70,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 19,
+    "start_beat": 38.0,
+    "estimated_2_4_bar": 20,
+    "estimated_4_4_bar": 10,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      149
+    ],
+    "event_details": [
+      {
+        "event_index": 149,
+        "start_beat": 38.5,
+        "raw": "[-#5 1 b3]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          60,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 22,
+    "start_beat": 44.0,
+    "estimated_2_4_bar": 23,
+    "estimated_4_4_bar": 12,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      174
+    ],
+    "event_details": [
+      {
+        "event_index": 174,
+        "start_beat": 45.75,
+        "raw": "[-#5 b3 b7]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          63,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 26,
+    "start_beat": 52.0,
+    "estimated_2_4_bar": 27,
+    "estimated_4_4_bar": 14,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      204
+    ],
+    "event_details": [
+      {
+        "event_index": 204,
+        "start_beat": 53.25,
+        "raw": "[-#5 b3]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "节奏织体块状化",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 30,
+    "start_beat": 60.0,
+    "estimated_2_4_bar": 31,
+    "estimated_4_4_bar": 16,
+    "evidence": "2拍窗口内参考起音 9 个，目标起音 2 个，快速织体可能被压成块。",
+    "events": [
+      230,
+      232
+    ],
+    "event_details": [
+      {
+        "event_index": 230,
+        "start_beat": 60.5,
+        "raw": "[-#5 b7 +b7]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          70,
+          82
+        ]
+      },
+      {
+        "event_index": 232,
+        "start_beat": 61.25,
+        "raw": "-b3",
+        "note_count": 1,
+        "pitches": [
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 30,
+    "start_beat": 60.0,
+    "estimated_2_4_bar": 31,
+    "estimated_4_4_bar": 16,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      230
+    ],
+    "event_details": [
+      {
+        "event_index": 230,
+        "start_beat": 60.5,
+        "raw": "[-#5 b7 +b7]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          70,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "低音锚点疑似缺失",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 33,
+    "start_beat": 66.0,
+    "estimated_2_4_bar": 34,
+    "estimated_4_4_bar": 17,
+    "evidence": "参考窗口最低音 47，目标窗口最低音 60，低音功能疑似被抬到中音区。",
+    "events": [
+      244
+    ],
+    "event_details": [
+      {
+        "event_index": 244,
+        "start_beat": 66.0,
+        "raw": "[-7 4 b7]",
+        "note_count": 3,
+        "pitches": [
+          59,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 34,
+    "start_beat": 68.0,
+    "estimated_2_4_bar": 35,
+    "estimated_4_4_bar": 18,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      253
+    ],
+    "event_details": [
+      {
+        "event_index": 253,
+        "start_beat": 69.75,
+        "raw": "[-#5 b7]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 35,
+    "start_beat": 70.0,
+    "estimated_2_4_bar": 36,
+    "estimated_4_4_bar": 18,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      258
+    ],
+    "event_details": [
+      {
+        "event_index": 258,
+        "start_beat": 71.25,
+        "raw": "[-#5 b3]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 37,
+    "start_beat": 74.0,
+    "estimated_2_4_bar": 38,
+    "estimated_4_4_bar": 19,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      274
+    ],
+    "event_details": [
+      {
+        "event_index": 274,
+        "start_beat": 75.25,
+        "raw": "[1 #5 b7]",
+        "note_count": 3,
+        "pitches": [
+          60,
+          68,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 38,
+    "start_beat": 76.0,
+    "estimated_2_4_bar": 39,
+    "estimated_4_4_bar": 20,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      282
+    ],
+    "event_details": [
+      {
+        "event_index": 282,
+        "start_beat": 77.25,
+        "raw": "[-#5 1 b3]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          60,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 40,
+    "start_beat": 80.0,
+    "estimated_2_4_bar": 41,
+    "estimated_4_4_bar": 21,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      293
+    ],
+    "event_details": [
+      {
+        "event_index": 293,
+        "start_beat": 80.25,
+        "raw": "[-b7 #5]",
+        "note_count": 2,
+        "pitches": [
+          58,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 42,
+    "start_beat": 84.0,
+    "estimated_2_4_bar": 43,
+    "estimated_4_4_bar": 22,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      309
+    ],
+    "event_details": [
+      {
+        "event_index": 309,
+        "start_beat": 84.5,
+        "raw": "[-#5 b7 +4 +b7]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          70,
+          77,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 46,
+    "start_beat": 92.0,
+    "estimated_2_4_bar": 47,
+    "estimated_4_4_bar": 24,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      336,
+      341
+    ],
+    "event_details": [
+      {
+        "event_index": 336,
+        "start_beat": 92.0,
+        "raw": "[-#5 b3 b7]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          63,
+          70
+        ]
+      },
+      {
+        "event_index": 341,
+        "start_beat": 93.25,
+        "raw": "[-b3 #5 +b3]",
+        "note_count": 3,
+        "pitches": [
+          51,
+          68,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 49,
+    "start_beat": 98.0,
+    "estimated_2_4_bar": 50,
+    "estimated_4_4_bar": 25,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      363
+    ],
+    "event_details": [
+      {
+        "event_index": 363,
+        "start_beat": 99.25,
+        "raw": "[-#5 1 b7]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          60,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 50,
+    "start_beat": 100.0,
+    "estimated_2_4_bar": 51,
+    "estimated_4_4_bar": 26,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      367
+    ],
+    "event_details": [
+      {
+        "event_index": 367,
+        "start_beat": 100.25,
+        "raw": "[-#5 b3]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 53,
+    "start_beat": 106.0,
+    "estimated_2_4_bar": 54,
+    "estimated_4_4_bar": 27,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      388
+    ],
+    "event_details": [
+      {
+        "event_index": 388,
+        "start_beat": 106.75,
+        "raw": "[-#5 1 b3 b7]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          60,
+          63,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 57,
+    "start_beat": 114.0,
+    "estimated_2_4_bar": 58,
+    "estimated_4_4_bar": 29,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      415,
+      419
+    ],
+    "event_details": [
+      {
+        "event_index": 415,
+        "start_beat": 114.0,
+        "raw": "[-#5 1 b3 b7]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          60,
+          63,
+          70
+        ]
+      },
+      {
+        "event_index": 419,
+        "start_beat": 115.0,
+        "raw": "[-#5 b3]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "节奏织体块状化",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 59,
+    "start_beat": 118.0,
+    "estimated_2_4_bar": 60,
+    "estimated_4_4_bar": 30,
+    "evidence": "2拍窗口内参考起音 6 个，目标起音 2 个，快速织体可能被压成块。",
+    "events": [
+      432,
+      434
+    ],
+    "event_details": [
+      {
+        "event_index": 432,
+        "start_beat": 118.75,
+        "raw": "[-2 b7 +4]",
+        "note_count": 3,
+        "pitches": [
+          50,
+          70,
+          77
+        ]
+      },
+      {
+        "event_index": 434,
+        "start_beat": 119.75,
+        "raw": "[1 b7 +b3 +5]",
+        "note_count": 4,
+        "pitches": [
+          60,
+          70,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 60,
+    "start_beat": 120.0,
+    "estimated_2_4_bar": 61,
+    "estimated_4_4_bar": 31,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      441
+    ],
+    "event_details": [
+      {
+        "event_index": 441,
+        "start_beat": 121.5,
+        "raw": "[-#5 1 b7]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          60,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 61,
+    "start_beat": 122.0,
+    "estimated_2_4_bar": 62,
+    "estimated_4_4_bar": 31,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      445
+    ],
+    "event_details": [
+      {
+        "event_index": 445,
+        "start_beat": 122.5,
+        "raw": "[-#5 b3 +2]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          63,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 63,
+    "start_beat": 126.0,
+    "estimated_2_4_bar": 64,
+    "estimated_4_4_bar": 32,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      461
+    ],
+    "event_details": [
+      {
+        "event_index": 461,
+        "start_beat": 127.0,
+        "raw": "[-#5 b3]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 64,
+    "start_beat": 128.0,
+    "estimated_2_4_bar": 65,
+    "estimated_4_4_bar": 33,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      466,
+      468
+    ],
+    "event_details": [
+      {
+        "event_index": 466,
+        "start_beat": 128.5,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      },
+      {
+        "event_index": 468,
+        "start_beat": 129.75,
+        "raw": "[-b7 2 #5 +2]",
+        "note_count": 4,
+        "pitches": [
+          58,
+          62,
+          68,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "type": "音区压缩过窄",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 65,
+    "start_beat": 130.0,
+    "estimated_2_4_bar": 66,
+    "estimated_4_4_bar": 33,
+    "evidence": "参考窗口跨度 36 半音，目标窗口跨度 15 半音且含 12 个音，疑似声部挤压。",
+    "events": [
+      470,
+      472,
+      473,
+      474
+    ],
+    "event_details": [
+      {
+        "event_index": 470,
+        "start_beat": 130.75,
+        "raw": "[1 +b3]",
+        "note_count": 2,
+        "pitches": [
+          60,
+          75
+        ]
+      },
+      {
+        "event_index": 472,
+        "start_beat": 131.25,
+        "raw": "[4 5 b7]",
+        "note_count": 3,
+        "pitches": [
+          65,
+          67,
+          70
+        ]
+      },
+      {
+        "event_index": 473,
+        "start_beat": 131.5,
+        "raw": "1",
+        "note_count": 1,
+        "pitches": [
+          60
+        ]
+      },
+      {
+        "event_index": 474,
+        "start_beat": 131.75,
+        "raw": "[4 5 b7]",
+        "note_count": 3,
+        "pitches": [
+          65,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 67,
+    "start_beat": 134.0,
+    "estimated_2_4_bar": 68,
+    "estimated_4_4_bar": 34,
+    "evidence": "2拍窗口内存在 4 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      485,
+      486,
+      488,
+      490
+    ],
+    "event_details": [
+      {
+        "event_index": 485,
+        "start_beat": 134.5,
+        "raw": "[-b3 b3 #5 b7 +1]",
+        "note_count": 5,
+        "pitches": [
+          51,
+          63,
+          68,
+          70,
+          72
+        ]
+      },
+      {
+        "event_index": 486,
+        "start_beat": 134.75,
+        "raw": "[-#5 b3 +1]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          63,
+          72
+        ]
+      },
+      {
+        "event_index": 488,
+        "start_beat": 135.25,
+        "raw": "[-#5 b3 4 5]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          63,
+          65,
+          67
+        ]
+      },
+      {
+        "event_index": 490,
+        "start_beat": 135.75,
+        "raw": "[-#5 b3 +b7]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          63,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "节奏织体块状化",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 68,
+    "start_beat": 136.0,
+    "estimated_2_4_bar": 69,
+    "estimated_4_4_bar": 35,
+    "evidence": "2拍窗口内参考起音 9 个，目标起音 1 个，快速织体可能被压成块。",
+    "events": [
+      492
+    ],
+    "event_details": [
+      {
+        "event_index": 492,
+        "start_beat": 137.25,
+        "raw": "[-b7 #5 +2]",
+        "note_count": 3,
+        "pitches": [
+          58,
+          68,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 68,
+    "start_beat": 136.0,
+    "estimated_2_4_bar": 69,
+    "estimated_4_4_bar": 35,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      492
+    ],
+    "event_details": [
+      {
+        "event_index": 492,
+        "start_beat": 137.25,
+        "raw": "[-b7 #5 +2]",
+        "note_count": 3,
+        "pitches": [
+          58,
+          68,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 70,
+    "start_beat": 140.0,
+    "estimated_2_4_bar": 71,
+    "estimated_4_4_bar": 36,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      509
+    ],
+    "event_details": [
+      {
+        "event_index": 509,
+        "start_beat": 141.75,
+        "raw": "[-#5 b3 +1 +b3 +5]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          72,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 71,
+    "start_beat": 142.0,
+    "estimated_2_4_bar": 72,
+    "estimated_4_4_bar": 36,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      515
+    ],
+    "event_details": [
+      {
+        "event_index": 515,
+        "start_beat": 143.25,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 72,
+    "start_beat": 144.0,
+    "estimated_2_4_bar": 73,
+    "estimated_4_4_bar": 37,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      517
+    ],
+    "event_details": [
+      {
+        "event_index": 517,
+        "start_beat": 144.25,
+        "raw": "[-#5 b3]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 74,
+    "start_beat": 148.0,
+    "estimated_2_4_bar": 75,
+    "estimated_4_4_bar": 38,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      536,
+      538
+    ],
+    "event_details": [
+      {
+        "event_index": 536,
+        "start_beat": 149.25,
+        "raw": "[-#5 1 +1 +b3]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          60,
+          72,
+          75
+        ]
+      },
+      {
+        "event_index": 538,
+        "start_beat": 149.75,
+        "raw": "[-#5 b3]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 75,
+    "start_beat": 150.0,
+    "estimated_2_4_bar": 76,
+    "estimated_4_4_bar": 38,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      539,
+      541
+    ],
+    "event_details": [
+      {
+        "event_index": 539,
+        "start_beat": 150.0,
+        "raw": "[-#5 b3 4]",
+        "note_count": 3,
+        "pitches": [
+          56,
+          63,
+          65
+        ]
+      },
+      {
+        "event_index": 541,
+        "start_beat": 150.5,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 85,
+    "start_beat": 170.0,
+    "estimated_2_4_bar": 86,
+    "estimated_4_4_bar": 43,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      618
+    ],
+    "event_details": [
+      {
+        "event_index": 618,
+        "start_beat": 171.25,
+        "raw": "[-b3 b7 +#4]",
+        "note_count": 3,
+        "pitches": [
+          51,
+          70,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "type": "音区压缩过窄",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 86,
+    "start_beat": 172.0,
+    "estimated_2_4_bar": 87,
+    "estimated_4_4_bar": 44,
+    "evidence": "参考窗口跨度 38 半音，目标窗口跨度 12 半音且含 9 个音，疑似声部挤压。",
+    "events": [
+      622,
+      623,
+      625,
+      626,
+      627,
+      628
+    ],
+    "event_details": [
+      {
+        "event_index": 622,
+        "start_beat": 172.25,
+        "raw": "[-#4 #4]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          66
+        ]
+      },
+      {
+        "event_index": 623,
+        "start_beat": 172.5,
+        "raw": "4",
+        "note_count": 1,
+        "pitches": [
+          65
+        ]
+      },
+      {
+        "event_index": 625,
+        "start_beat": 173.0,
+        "raw": "#1",
+        "note_count": 1,
+        "pitches": [
+          61
+        ]
+      },
+      {
+        "event_index": 626,
+        "start_beat": 173.25,
+        "raw": "-7",
+        "note_count": 1,
+        "pitches": [
+          59
+        ]
+      },
+      {
+        "event_index": 627,
+        "start_beat": 173.5,
+        "raw": "b3",
+        "note_count": 1,
+        "pitches": [
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 87,
+    "start_beat": 174.0,
+    "estimated_2_4_bar": 88,
+    "estimated_4_4_bar": 44,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      629
+    ],
+    "event_details": [
+      {
+        "event_index": 629,
+        "start_beat": 174.0,
+        "raw": "[b3 #4]",
+        "note_count": 2,
+        "pitches": [
+          63,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "type": "音区压缩过窄",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 88,
+    "start_beat": 176.0,
+    "estimated_2_4_bar": 89,
+    "estimated_4_4_bar": 45,
+    "evidence": "参考窗口跨度 38 半音，目标窗口跨度 18 半音且含 10 个音，疑似声部挤压。",
+    "events": [
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      644
+    ],
+    "event_details": [
+      {
+        "event_index": 637,
+        "start_beat": 176.0,
+        "raw": "[#1 +#1]",
+        "note_count": 2,
+        "pitches": [
+          61,
+          73
+        ]
+      },
+      {
+        "event_index": 638,
+        "start_beat": 176.25,
+        "raw": "#5",
+        "note_count": 1,
+        "pitches": [
+          68
+        ]
+      },
+      {
+        "event_index": 639,
+        "start_beat": 176.5,
+        "raw": "b7",
+        "note_count": 1,
+        "pitches": [
+          70
+        ]
+      },
+      {
+        "event_index": 640,
+        "start_beat": 176.75,
+        "raw": "7",
+        "note_count": 1,
+        "pitches": [
+          71
+        ]
+      },
+      {
+        "event_index": 641,
+        "start_beat": 177.0,
+        "raw": "[-#4 #5]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 89,
+    "start_beat": 178.0,
+    "estimated_2_4_bar": 90,
+    "estimated_4_4_bar": 45,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      648,
+      652
+    ],
+    "event_details": [
+      {
+        "event_index": 648,
+        "start_beat": 178.75,
+        "raw": "[-b3 #4]",
+        "note_count": 2,
+        "pitches": [
+          51,
+          66
+        ]
+      },
+      {
+        "event_index": 652,
+        "start_beat": 179.75,
+        "raw": "[-#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "音区压缩过窄",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 90,
+    "start_beat": 180.0,
+    "estimated_2_4_bar": 91,
+    "estimated_4_4_bar": 46,
+    "evidence": "参考窗口跨度 40 半音，目标窗口跨度 17 半音且含 9 个音，疑似声部挤压。",
+    "events": [
+      653,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660
+    ],
+    "event_details": [
+      {
+        "event_index": 653,
+        "start_beat": 180.0,
+        "raw": "[#4 +#1]",
+        "note_count": 2,
+        "pitches": [
+          66,
+          73
+        ]
+      },
+      {
+        "event_index": 654,
+        "start_beat": 180.25,
+        "raw": "b3",
+        "note_count": 1,
+        "pitches": [
+          63
+        ]
+      },
+      {
+        "event_index": 655,
+        "start_beat": 180.5,
+        "raw": "-7",
+        "note_count": 1,
+        "pitches": [
+          59
+        ]
+      },
+      {
+        "event_index": 656,
+        "start_beat": 180.75,
+        "raw": "#4",
+        "note_count": 1,
+        "pitches": [
+          66
+        ]
+      },
+      {
+        "event_index": 657,
+        "start_beat": 181.0,
+        "raw": "[-#4 4]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "type": "节奏织体块状化",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 92,
+    "start_beat": 184.0,
+    "estimated_2_4_bar": 93,
+    "estimated_4_4_bar": 47,
+    "evidence": "2拍窗口内参考起音 8 个，目标起音 2 个，快速织体可能被压成块。",
+    "events": [
+      669,
+      670
+    ],
+    "event_details": [
+      {
+        "event_index": 669,
+        "start_beat": 184.0,
+        "raw": "#4",
+        "note_count": 1,
+        "pitches": [
+          66
+        ]
+      },
+      {
+        "event_index": 670,
+        "start_beat": 184.25,
+        "raw": "[-2 2 b7 +2]",
+        "note_count": 4,
+        "pitches": [
+          50,
+          62,
+          70,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 93,
+    "start_beat": 186.0,
+    "estimated_2_4_bar": 94,
+    "estimated_4_4_bar": 47,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      672
+    ],
+    "event_details": [
+      {
+        "event_index": 672,
+        "start_beat": 186.0,
+        "raw": "[-b3 #4 b7]",
+        "note_count": 3,
+        "pitches": [
+          51,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 96,
+    "start_beat": 192.0,
+    "estimated_2_4_bar": 97,
+    "estimated_4_4_bar": 49,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      684
+    ],
+    "event_details": [
+      {
+        "event_index": 684,
+        "start_beat": 193.5,
+        "raw": "[-b3 #1 #4]",
+        "note_count": 3,
+        "pitches": [
+          51,
+          61,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 97,
+    "start_beat": 194.0,
+    "estimated_2_4_bar": 98,
+    "estimated_4_4_bar": 49,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      686
+    ],
+    "event_details": [
+      {
+        "event_index": 686,
+        "start_beat": 195.25,
+        "raw": "[-7 #1 #4 b7]",
+        "note_count": 4,
+        "pitches": [
+          59,
+          61,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 100,
+    "start_beat": 200.0,
+    "estimated_2_4_bar": 101,
+    "estimated_4_4_bar": 51,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      694
+    ],
+    "event_details": [
+      {
+        "event_index": 694,
+        "start_beat": 201.0,
+        "raw": "[-b3 #1 #4 b7]",
+        "note_count": 4,
+        "pitches": [
+          51,
+          61,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 101,
+    "start_beat": 202.0,
+    "estimated_2_4_bar": 102,
+    "estimated_4_4_bar": 51,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      699
+    ],
+    "event_details": [
+      {
+        "event_index": 699,
+        "start_beat": 202.25,
+        "raw": "[b3 +#5]",
+        "note_count": 2,
+        "pitches": [
+          63,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 102,
+    "start_beat": 204.0,
+    "estimated_2_4_bar": 103,
+    "estimated_4_4_bar": 52,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      705
+    ],
+    "event_details": [
+      {
+        "event_index": 705,
+        "start_beat": 204.5,
+        "raw": "[-#1 #4 b7]",
+        "note_count": 3,
+        "pitches": [
+          49,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 104,
+    "start_beat": 208.0,
+    "estimated_2_4_bar": 105,
+    "estimated_4_4_bar": 53,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      717
+    ],
+    "event_details": [
+      {
+        "event_index": 717,
+        "start_beat": 208.25,
+        "raw": "[-b3 #4]",
+        "note_count": 2,
+        "pitches": [
+          51,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 107,
+    "start_beat": 214.0,
+    "estimated_2_4_bar": 108,
+    "estimated_4_4_bar": 54,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      742
+    ],
+    "event_details": [
+      {
+        "event_index": 742,
+        "start_beat": 215.75,
+        "raw": "[-b3 #5]",
+        "note_count": 2,
+        "pitches": [
+          51,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 110,
+    "start_beat": 220.0,
+    "estimated_2_4_bar": 111,
+    "estimated_4_4_bar": 56,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      763
+    ],
+    "event_details": [
+      {
+        "event_index": 763,
+        "start_beat": 221.25,
+        "raw": "[-#4 #1 b7]",
+        "note_count": 3,
+        "pitches": [
+          54,
+          61,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 111,
+    "start_beat": 222.0,
+    "estimated_2_4_bar": 112,
+    "estimated_4_4_bar": 56,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      769
+    ],
+    "event_details": [
+      {
+        "event_index": 769,
+        "start_beat": 223.0,
+        "raw": "[-b3 b7 +#1]",
+        "note_count": 3,
+        "pitches": [
+          51,
+          70,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 112,
+    "start_beat": 224.0,
+    "estimated_2_4_bar": 113,
+    "estimated_4_4_bar": 57,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      777
+    ],
+    "event_details": [
+      {
+        "event_index": 777,
+        "start_beat": 225.75,
+        "raw": "[-#4 7 +b3]",
+        "note_count": 3,
+        "pitches": [
+          54,
+          71,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "节奏织体块状化",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 120,
+    "start_beat": 240.0,
+    "estimated_2_4_bar": 121,
+    "estimated_4_4_bar": 61,
+    "evidence": "2拍窗口内参考起音 6 个，目标起音 2 个，快速织体可能被压成块。",
+    "events": [
+      825,
+      827
+    ],
+    "event_details": [
+      {
+        "event_index": 825,
+        "start_beat": 240.5,
+        "raw": "[-7 #4]",
+        "note_count": 2,
+        "pitches": [
+          59,
+          66
+        ]
+      },
+      {
+        "event_index": 827,
+        "start_beat": 241.5,
+        "raw": "[-#5 4]",
+        "note_count": 2,
+        "pitches": [
+          56,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 122,
+    "start_beat": 244.0,
+    "estimated_2_4_bar": 123,
+    "estimated_4_4_bar": 62,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      840
+    ],
+    "event_details": [
+      {
+        "event_index": 840,
+        "start_beat": 245.25,
+        "raw": "[-b7 #5]",
+        "note_count": 2,
+        "pitches": [
+          58,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "type": "音区压缩过窄",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 123,
+    "start_beat": 246.0,
+    "estimated_2_4_bar": 124,
+    "estimated_4_4_bar": 62,
+    "evidence": "参考窗口跨度 41 半音，目标窗口跨度 17 半音且含 9 个音，疑似声部挤压。",
+    "events": [
+      843,
+      844,
+      845,
+      847,
+      849,
+      850
+    ],
+    "event_details": [
+      {
+        "event_index": 843,
+        "start_beat": 246.0,
+        "raw": "#5",
+        "note_count": 1,
+        "pitches": [
+          68
+        ]
+      },
+      {
+        "event_index": 844,
+        "start_beat": 246.25,
+        "raw": "-b3",
+        "note_count": 1,
+        "pitches": [
+          51
+        ]
+      },
+      {
+        "event_index": 845,
+        "start_beat": 246.5,
+        "raw": "-b7",
+        "note_count": 1,
+        "pitches": [
+          58
+        ]
+      },
+      {
+        "event_index": 847,
+        "start_beat": 247.0,
+        "raw": "[-7 #1 #5]",
+        "note_count": 3,
+        "pitches": [
+          59,
+          61,
+          68
+        ]
+      },
+      {
+        "event_index": 849,
+        "start_beat": 247.5,
+        "raw": "-7",
+        "note_count": 1,
+        "pitches": [
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "type": "音区压缩过窄",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 126,
+    "start_beat": 252.0,
+    "estimated_2_4_bar": 127,
+    "estimated_4_4_bar": 64,
+    "evidence": "参考窗口跨度 41 半音，目标窗口跨度 17 半音且含 9 个音，疑似声部挤压。",
+    "events": [
+      862,
+      864,
+      865,
+      866,
+      867,
+      868
+    ],
+    "event_details": [
+      {
+        "event_index": 862,
+        "start_beat": 252.0,
+        "raw": "[-#1 #5]",
+        "note_count": 2,
+        "pitches": [
+          49,
+          68
+        ]
+      },
+      {
+        "event_index": 864,
+        "start_beat": 252.5,
+        "raw": "-b3",
+        "note_count": 1,
+        "pitches": [
+          51
+        ]
+      },
+      {
+        "event_index": 865,
+        "start_beat": 252.75,
+        "raw": "-b7",
+        "note_count": 1,
+        "pitches": [
+          58
+        ]
+      },
+      {
+        "event_index": 866,
+        "start_beat": 253.0,
+        "raw": "#5",
+        "note_count": 1,
+        "pitches": [
+          68
+        ]
+      },
+      {
+        "event_index": 867,
+        "start_beat": 253.25,
+        "raw": "#4",
+        "note_count": 1,
+        "pitches": [
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 127,
+    "start_beat": 254.0,
+    "estimated_2_4_bar": 128,
+    "estimated_4_4_bar": 64,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      872
+    ],
+    "event_details": [
+      {
+        "event_index": 872,
+        "start_beat": 254.5,
+        "raw": "[-7 #4 #5 +b3]",
+        "note_count": 4,
+        "pitches": [
+          59,
+          66,
+          68,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 130,
+    "start_beat": 260.0,
+    "estimated_2_4_bar": 131,
+    "estimated_4_4_bar": 66,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      892,
+      896
+    ],
+    "event_details": [
+      {
+        "event_index": 892,
+        "start_beat": 260.0,
+        "raw": "[-b3 #4 #5]",
+        "note_count": 3,
+        "pitches": [
+          51,
+          66,
+          68
+        ]
+      },
+      {
+        "event_index": 896,
+        "start_beat": 261.0,
+        "raw": "[-b3 +#1]",
+        "note_count": 2,
+        "pitches": [
+          51,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 133,
+    "start_beat": 266.0,
+    "estimated_2_4_bar": 134,
+    "estimated_4_4_bar": 67,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      916,
+      918
+    ],
+    "event_details": [
+      {
+        "event_index": 916,
+        "start_beat": 266.5,
+        "raw": "[-4 #4 b7]",
+        "note_count": 3,
+        "pitches": [
+          53,
+          66,
+          70
+        ]
+      },
+      {
+        "event_index": 918,
+        "start_beat": 267.25,
+        "raw": "[-b3 #1]",
+        "note_count": 2,
+        "pitches": [
+          51,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 136,
+    "start_beat": 272.0,
+    "estimated_2_4_bar": 137,
+    "estimated_4_4_bar": 69,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      936
+    ],
+    "event_details": [
+      {
+        "event_index": 936,
+        "start_beat": 272.75,
+        "raw": "[-#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 137,
+    "start_beat": 274.0,
+    "estimated_2_4_bar": 138,
+    "estimated_4_4_bar": 69,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      944
+    ],
+    "event_details": [
+      {
+        "event_index": 944,
+        "start_beat": 275.25,
+        "raw": "[b7 +#1]",
+        "note_count": 2,
+        "pitches": [
+          70,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "type": "音区压缩过窄",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 138,
+    "start_beat": 276.0,
+    "estimated_2_4_bar": 139,
+    "estimated_4_4_bar": 70,
+    "evidence": "参考窗口跨度 41 半音，目标窗口跨度 17 半音且含 9 个音，疑似声部挤压。",
+    "events": [
+      947,
+      948,
+      949,
+      951,
+      953
+    ],
+    "event_details": [
+      {
+        "event_index": 947,
+        "start_beat": 276.0,
+        "raw": "[-b7 b3]",
+        "note_count": 2,
+        "pitches": [
+          58,
+          63
+        ]
+      },
+      {
+        "event_index": 948,
+        "start_beat": 276.25,
+        "raw": "-b7",
+        "note_count": 1,
+        "pitches": [
+          58
+        ]
+      },
+      {
+        "event_index": 949,
+        "start_beat": 276.5,
+        "raw": "[-7 #1]",
+        "note_count": 2,
+        "pitches": [
+          59,
+          61
+        ]
+      },
+      {
+        "event_index": 951,
+        "start_beat": 277.0,
+        "raw": "[-#4 -7]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          59
+        ]
+      },
+      {
+        "event_index": 953,
+        "start_beat": 277.5,
+        "raw": "7",
+        "note_count": 1,
+        "pitches": [
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 140,
+    "start_beat": 280.0,
+    "estimated_2_4_bar": 141,
+    "estimated_4_4_bar": 71,
+    "evidence": "2拍窗口内存在 3 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      964,
+      968,
+      970
+    ],
+    "event_details": [
+      {
+        "event_index": 964,
+        "start_beat": 280.25,
+        "raw": "[-#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          70
+        ]
+      },
+      {
+        "event_index": 968,
+        "start_beat": 281.25,
+        "raw": "[-4 #4 b7]",
+        "note_count": 3,
+        "pitches": [
+          53,
+          66,
+          70
+        ]
+      },
+      {
+        "event_index": 970,
+        "start_beat": 281.75,
+        "raw": "[#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "音区压缩过窄",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 140,
+    "start_beat": 280.0,
+    "estimated_2_4_bar": 141,
+    "estimated_4_4_bar": 71,
+    "evidence": "参考窗口跨度 39 半音，目标窗口跨度 17 半音且含 8 个音，疑似声部挤压。",
+    "events": [
+      964,
+      966,
+      968,
+      970
+    ],
+    "event_details": [
+      {
+        "event_index": 964,
+        "start_beat": 280.25,
+        "raw": "[-#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          70
+        ]
+      },
+      {
+        "event_index": 966,
+        "start_beat": 280.75,
+        "raw": "b7",
+        "note_count": 1,
+        "pitches": [
+          70
+        ]
+      },
+      {
+        "event_index": 968,
+        "start_beat": 281.25,
+        "raw": "[-4 #4 b7]",
+        "note_count": 3,
+        "pitches": [
+          53,
+          66,
+          70
+        ]
+      },
+      {
+        "event_index": 970,
+        "start_beat": 281.75,
+        "raw": "[#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 141,
+    "start_beat": 282.0,
+    "estimated_2_4_bar": 142,
+    "estimated_4_4_bar": 71,
+    "evidence": "2拍窗口内存在 4 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      972,
+      973,
+      975,
+      977
+    ],
+    "event_details": [
+      {
+        "event_index": 972,
+        "start_beat": 282.25,
+        "raw": "[-b3 #4]",
+        "note_count": 2,
+        "pitches": [
+          51,
+          66
+        ]
+      },
+      {
+        "event_index": 973,
+        "start_beat": 282.5,
+        "raw": "[#1 b7]",
+        "note_count": 2,
+        "pitches": [
+          61,
+          70
+        ]
+      },
+      {
+        "event_index": 975,
+        "start_beat": 283.0,
+        "raw": "[-b3 #4 b7]",
+        "note_count": 3,
+        "pitches": [
+          51,
+          66,
+          70
+        ]
+      },
+      {
+        "event_index": 977,
+        "start_beat": 283.5,
+        "raw": "[-b7 #5 +#5]",
+        "note_count": 3,
+        "pitches": [
+          58,
+          68,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 143,
+    "start_beat": 286.0,
+    "estimated_2_4_bar": 144,
+    "estimated_4_4_bar": 72,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      994
+    ],
+    "event_details": [
+      {
+        "event_index": 994,
+        "start_beat": 287.75,
+        "raw": "[-#4 b7 +b7]",
+        "note_count": 3,
+        "pitches": [
+          54,
+          70,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 144,
+    "start_beat": 288.0,
+    "estimated_2_4_bar": 145,
+    "estimated_4_4_bar": 73,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      999,
+      1001
+    ],
+    "event_details": [
+      {
+        "event_index": 999,
+        "start_beat": 289.0,
+        "raw": "[-#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          70
+        ]
+      },
+      {
+        "event_index": 1001,
+        "start_beat": 289.5,
+        "raw": "[-b3 #4 b7]",
+        "note_count": 3,
+        "pitches": [
+          51,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 145,
+    "start_beat": 290.0,
+    "estimated_2_4_bar": 146,
+    "estimated_4_4_bar": 73,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      1005
+    ],
+    "event_details": [
+      {
+        "event_index": 1005,
+        "start_beat": 290.5,
+        "raw": "[b3 #4]",
+        "note_count": 2,
+        "pitches": [
+          63,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 146,
+    "start_beat": 292.0,
+    "estimated_2_4_bar": 147,
+    "estimated_4_4_bar": 74,
+    "evidence": "2拍窗口内存在 1 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      1012
+    ],
+    "event_details": [
+      {
+        "event_index": 1012,
+        "start_beat": 292.25,
+        "raw": "[-b7 #4 7]",
+        "note_count": 3,
+        "pitches": [
+          58,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 147,
+    "start_beat": 294.0,
+    "estimated_2_4_bar": 148,
+    "estimated_4_4_bar": 74,
+    "evidence": "2拍窗口内存在 3 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      1019,
+      1023,
+      1025
+    ],
+    "event_details": [
+      {
+        "event_index": 1019,
+        "start_beat": 294.0,
+        "raw": "[-#1 -#5 #5 b7 +4]",
+        "note_count": 5,
+        "pitches": [
+          49,
+          56,
+          68,
+          70,
+          77
+        ]
+      },
+      {
+        "event_index": 1023,
+        "start_beat": 295.0,
+        "raw": "[-#4 b7 +b7]",
+        "note_count": 3,
+        "pitches": [
+          54,
+          70,
+          82
+        ]
+      },
+      {
+        "event_index": 1025,
+        "start_beat": 295.5,
+        "raw": "[#1 b7]",
+        "note_count": 2,
+        "pitches": [
+          61,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 148,
+    "start_beat": 296.0,
+    "estimated_2_4_bar": 149,
+    "estimated_4_4_bar": 75,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      1027,
+      1034
+    ],
+    "event_details": [
+      {
+        "event_index": 1027,
+        "start_beat": 296.0,
+        "raw": "[-4 b7 +#1 +4 +b7]",
+        "note_count": 5,
+        "pitches": [
+          53,
+          70,
+          73,
+          77,
+          82
+        ]
+      },
+      {
+        "event_index": 1034,
+        "start_beat": 297.75,
+        "raw": "[-b3 b3 #4 b7]",
+        "note_count": 4,
+        "pitches": [
+          51,
+          63,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 149,
+    "start_beat": 298.0,
+    "estimated_2_4_bar": 150,
+    "estimated_4_4_bar": 75,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      1036,
+      1042
+    ],
+    "event_details": [
+      {
+        "event_index": 1036,
+        "start_beat": 298.25,
+        "raw": "[b3 #5 b7]",
+        "note_count": 3,
+        "pitches": [
+          63,
+          68,
+          70
+        ]
+      },
+      {
+        "event_index": 1042,
+        "start_beat": 299.75,
+        "raw": "[b3 #4]",
+        "note_count": 2,
+        "pitches": [
+          63,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 151,
+    "start_beat": 302.0,
+    "estimated_2_4_bar": 152,
+    "estimated_4_4_bar": 76,
+    "evidence": "2拍窗口内存在 3 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      1053,
+      1056,
+      1058
+    ],
+    "event_details": [
+      {
+        "event_index": 1053,
+        "start_beat": 302.5,
+        "raw": "[-#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          54,
+          70
+        ]
+      },
+      {
+        "event_index": 1056,
+        "start_beat": 303.25,
+        "raw": "[-#4 4 b7 +#1]",
+        "note_count": 4,
+        "pitches": [
+          54,
+          65,
+          70,
+          73
+        ]
+      },
+      {
+        "event_index": 1058,
+        "start_beat": 303.75,
+        "raw": "[#1 #5 b7 +4 +#5]",
+        "note_count": 5,
+        "pitches": [
+          61,
+          68,
+          70,
+          77,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "type": "节奏织体块状化",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 152,
+    "start_beat": 304.0,
+    "estimated_2_4_bar": 153,
+    "estimated_4_4_bar": 77,
+    "evidence": "2拍窗口内参考起音 7 个，目标起音 1 个，快速织体可能被压成块。",
+    "events": [
+      1060
+    ],
+    "event_details": [
+      {
+        "event_index": 1060,
+        "start_beat": 305.75,
+        "raw": "[-7 7]",
+        "note_count": 2,
+        "pitches": [
+          59,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "type": "低音锚点疑似缺失",
+    "severity": "Major",
+    "confidence": "medium",
+    "bar_2_beat_index": 153,
+    "start_beat": 306.0,
+    "estimated_2_4_bar": 154,
+    "estimated_4_4_bar": 77,
+    "evidence": "参考窗口最低音 35，目标窗口最低音 63，低音功能疑似被抬到中音区。",
+    "events": [
+      1061,
+      1062,
+      1063,
+      1064,
+      1065
+    ],
+    "event_details": [
+      {
+        "event_index": 1061,
+        "start_beat": 306.0,
+        "raw": "b3",
+        "note_count": 1,
+        "pitches": [
+          63
+        ]
+      },
+      {
+        "event_index": 1062,
+        "start_beat": 306.25,
+        "raw": "[#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          66,
+          70
+        ]
+      },
+      {
+        "event_index": 1063,
+        "start_beat": 306.5,
+        "raw": "b3",
+        "note_count": 1,
+        "pitches": [
+          63
+        ]
+      },
+      {
+        "event_index": 1064,
+        "start_beat": 306.75,
+        "raw": "[#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          66,
+          70
+        ]
+      },
+      {
+        "event_index": 1065,
+        "start_beat": 307.0,
+        "raw": "b3",
+        "note_count": 1,
+        "pitches": [
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "type": "输入稳定性风险：同事件混合升降半音",
+    "severity": "Major",
+    "confidence": "high",
+    "bar_2_beat_index": 153,
+    "start_beat": 306.0,
+    "estimated_2_4_bar": 154,
+    "estimated_4_4_bar": 77,
+    "evidence": "2拍窗口内存在 2 个同时包含 # 与 b 的事件，播放器需要 Ctrl/Shift 分组发送，可能造成和弦不同步。",
+    "events": [
+      1062,
+      1064
+    ],
+    "event_details": [
+      {
+        "event_index": 1062,
+        "start_beat": 306.25,
+        "raw": "[#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          66,
+          70
+        ]
+      },
+      {
+        "event_index": 1064,
+        "start_beat": 306.75,
+        "raw": "[#4 b7]",
+        "note_count": 2,
+        "pitches": [
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 31,
+    "start_beat": 62.0,
+    "estimated_2_4_bar": 32,
+    "estimated_4_4_bar": 16,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      236
+    ],
+    "event_details": [
+      {
+        "event_index": 236,
+        "start_beat": 62.5,
+        "raw": "[-b3 b3 5 b7]",
+        "note_count": 4,
+        "pitches": [
+          51,
+          63,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 42,
+    "start_beat": 84.0,
+    "estimated_2_4_bar": 43,
+    "estimated_4_4_bar": 22,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      309
+    ],
+    "event_details": [
+      {
+        "event_index": 309,
+        "start_beat": 84.5,
+        "raw": "[-#5 b7 +4 +b7]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          70,
+          77,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 44,
+    "start_beat": 88.0,
+    "estimated_2_4_bar": 45,
+    "estimated_4_4_bar": 23,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      327
+    ],
+    "event_details": [
+      {
+        "event_index": 327,
+        "start_beat": 89.25,
+        "raw": "[-2 b7 +b3 +5]",
+        "note_count": 4,
+        "pitches": [
+          50,
+          70,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 48,
+    "start_beat": 96.0,
+    "estimated_2_4_bar": 49,
+    "estimated_4_4_bar": 25,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      356
+    ],
+    "event_details": [
+      {
+        "event_index": 356,
+        "start_beat": 97.5,
+        "raw": "[1 b3 5 +b3]",
+        "note_count": 4,
+        "pitches": [
+          60,
+          63,
+          67,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 51,
+    "start_beat": 102.0,
+    "estimated_2_4_bar": 52,
+    "estimated_4_4_bar": 26,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      378
+    ],
+    "event_details": [
+      {
+        "event_index": 378,
+        "start_beat": 103.0,
+        "raw": "[-b3 5 b7 +b3 +5]",
+        "note_count": 5,
+        "pitches": [
+          51,
+          67,
+          70,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 53,
+    "start_beat": 106.0,
+    "estimated_2_4_bar": 54,
+    "estimated_4_4_bar": 27,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      388
+    ],
+    "event_details": [
+      {
+        "event_index": 388,
+        "start_beat": 106.75,
+        "raw": "[-#5 1 b3 b7]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          60,
+          63,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 55,
+    "start_beat": 110.0,
+    "estimated_2_4_bar": 56,
+    "estimated_4_4_bar": 28,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      403
+    ],
+    "event_details": [
+      {
+        "event_index": 403,
+        "start_beat": 110.5,
+        "raw": "[-b3 5 +b3 +5 +b7]",
+        "note_count": 5,
+        "pitches": [
+          51,
+          67,
+          75,
+          79,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 55,
+    "start_beat": 110.0,
+    "estimated_2_4_bar": 56,
+    "estimated_4_4_bar": 28,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      403
+    ],
+    "event_details": [
+      {
+        "event_index": 403,
+        "start_beat": 110.5,
+        "raw": "[-b3 5 +b3 +5 +b7]",
+        "note_count": 5,
+        "pitches": [
+          51,
+          67,
+          75,
+          79,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 56,
+    "start_beat": 112.0,
+    "estimated_2_4_bar": 57,
+    "estimated_4_4_bar": 29,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      408
+    ],
+    "event_details": [
+      {
+        "event_index": 408,
+        "start_beat": 112.25,
+        "raw": "[1 5 +b3 +5]",
+        "note_count": 4,
+        "pitches": [
+          60,
+          67,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 58,
+    "start_beat": 116.0,
+    "estimated_2_4_bar": 59,
+    "estimated_4_4_bar": 30,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      430
+    ],
+    "event_details": [
+      {
+        "event_index": 430,
+        "start_beat": 117.75,
+        "raw": "[-b3 5 b7 +b3]",
+        "note_count": 4,
+        "pitches": [
+          51,
+          67,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 59,
+    "start_beat": 118.0,
+    "estimated_2_4_bar": 60,
+    "estimated_4_4_bar": 30,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      434
+    ],
+    "event_details": [
+      {
+        "event_index": 434,
+        "start_beat": 119.75,
+        "raw": "[1 b7 +b3 +5]",
+        "note_count": 4,
+        "pitches": [
+          60,
+          70,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 61,
+    "start_beat": 122.0,
+    "estimated_2_4_bar": 62,
+    "estimated_4_4_bar": 31,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      448
+    ],
+    "event_details": [
+      {
+        "event_index": 448,
+        "start_beat": 123.25,
+        "raw": "[-b7 2 4 b7]",
+        "note_count": 4,
+        "pitches": [
+          58,
+          62,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 62,
+    "start_beat": 124.0,
+    "estimated_2_4_bar": 63,
+    "estimated_4_4_bar": 32,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      452
+    ],
+    "event_details": [
+      {
+        "event_index": 452,
+        "start_beat": 124.25,
+        "raw": "[-b7 2 b7 +5]",
+        "note_count": 4,
+        "pitches": [
+          58,
+          62,
+          70,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 64,
+    "start_beat": 128.0,
+    "estimated_2_4_bar": 65,
+    "estimated_4_4_bar": 33,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      466
+    ],
+    "event_details": [
+      {
+        "event_index": 466,
+        "start_beat": 128.5,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 64,
+    "start_beat": 128.0,
+    "estimated_2_4_bar": 65,
+    "estimated_4_4_bar": 33,
+    "evidence": "2拍窗口内存在 2 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      466,
+      468
+    ],
+    "event_details": [
+      {
+        "event_index": 466,
+        "start_beat": 128.5,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      },
+      {
+        "event_index": 468,
+        "start_beat": 129.75,
+        "raw": "[-b7 2 #5 +2]",
+        "note_count": 4,
+        "pitches": [
+          58,
+          62,
+          68,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 67,
+    "start_beat": 134.0,
+    "estimated_2_4_bar": 68,
+    "estimated_4_4_bar": 34,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      485
+    ],
+    "event_details": [
+      {
+        "event_index": 485,
+        "start_beat": 134.5,
+        "raw": "[-b3 b3 #5 b7 +1]",
+        "note_count": 5,
+        "pitches": [
+          51,
+          63,
+          68,
+          70,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 67,
+    "start_beat": 134.0,
+    "estimated_2_4_bar": 68,
+    "estimated_4_4_bar": 34,
+    "evidence": "2拍窗口内存在 2 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      485,
+      488
+    ],
+    "event_details": [
+      {
+        "event_index": 485,
+        "start_beat": 134.5,
+        "raw": "[-b3 b3 #5 b7 +1]",
+        "note_count": 5,
+        "pitches": [
+          51,
+          63,
+          68,
+          70,
+          72
+        ]
+      },
+      {
+        "event_index": 488,
+        "start_beat": 135.25,
+        "raw": "[-#5 b3 4 5]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          63,
+          65,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 70,
+    "start_beat": 140.0,
+    "estimated_2_4_bar": 71,
+    "estimated_4_4_bar": 36,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      509
+    ],
+    "event_details": [
+      {
+        "event_index": 509,
+        "start_beat": 141.75,
+        "raw": "[-#5 b3 +1 +b3 +5]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          72,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 70,
+    "start_beat": 140.0,
+    "estimated_2_4_bar": 71,
+    "estimated_4_4_bar": 36,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      509
+    ],
+    "event_details": [
+      {
+        "event_index": 509,
+        "start_beat": 141.75,
+        "raw": "[-#5 b3 +1 +b3 +5]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          72,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 71,
+    "start_beat": 142.0,
+    "estimated_2_4_bar": 72,
+    "estimated_4_4_bar": 36,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      515
+    ],
+    "event_details": [
+      {
+        "event_index": 515,
+        "start_beat": 143.25,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 71,
+    "start_beat": 142.0,
+    "estimated_2_4_bar": 72,
+    "estimated_4_4_bar": 36,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      515
+    ],
+    "event_details": [
+      {
+        "event_index": 515,
+        "start_beat": 143.25,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 72,
+    "start_beat": 144.0,
+    "estimated_2_4_bar": 73,
+    "estimated_4_4_bar": 37,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      518
+    ],
+    "event_details": [
+      {
+        "event_index": 518,
+        "start_beat": 144.5,
+        "raw": "[-b7 2 4 +2 +4]",
+        "note_count": 5,
+        "pitches": [
+          58,
+          62,
+          65,
+          74,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 72,
+    "start_beat": 144.0,
+    "estimated_2_4_bar": 73,
+    "estimated_4_4_bar": 37,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      518
+    ],
+    "event_details": [
+      {
+        "event_index": 518,
+        "start_beat": 144.5,
+        "raw": "[-b7 2 4 +2 +4]",
+        "note_count": 5,
+        "pitches": [
+          58,
+          62,
+          65,
+          74,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 73,
+    "start_beat": 146.0,
+    "estimated_2_4_bar": 74,
+    "estimated_4_4_bar": 37,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      528
+    ],
+    "event_details": [
+      {
+        "event_index": 528,
+        "start_beat": 147.25,
+        "raw": "[-5 b7 +b3 +5]",
+        "note_count": 4,
+        "pitches": [
+          55,
+          70,
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 74,
+    "start_beat": 148.0,
+    "estimated_2_4_bar": 75,
+    "estimated_4_4_bar": 38,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      536
+    ],
+    "event_details": [
+      {
+        "event_index": 536,
+        "start_beat": 149.25,
+        "raw": "[-#5 1 +1 +b3]",
+        "note_count": 4,
+        "pitches": [
+          56,
+          60,
+          72,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 75,
+    "start_beat": 150.0,
+    "estimated_2_4_bar": 76,
+    "estimated_4_4_bar": 38,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      541
+    ],
+    "event_details": [
+      {
+        "event_index": 541,
+        "start_beat": 150.5,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 75,
+    "start_beat": 150.0,
+    "estimated_2_4_bar": 76,
+    "estimated_4_4_bar": 38,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      541
+    ],
+    "event_details": [
+      {
+        "event_index": 541,
+        "start_beat": 150.5,
+        "raw": "[-#5 b3 b7 +b3 +b7]",
+        "note_count": 5,
+        "pitches": [
+          56,
+          63,
+          70,
+          75,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 77,
+    "start_beat": 154.0,
+    "estimated_2_4_bar": 78,
+    "estimated_4_4_bar": 39,
+    "evidence": "2拍窗口内存在 2 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      553,
+      557
+    ],
+    "event_details": [
+      {
+        "event_index": 553,
+        "start_beat": 154.75,
+        "raw": "[-b7 2 4 +1]",
+        "note_count": 4,
+        "pitches": [
+          58,
+          62,
+          65,
+          72
+        ]
+      },
+      {
+        "event_index": 557,
+        "start_beat": 155.75,
+        "raw": "[-7 b3 4 b7]",
+        "note_count": 4,
+        "pitches": [
+          59,
+          63,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 92,
+    "start_beat": 184.0,
+    "estimated_2_4_bar": 93,
+    "estimated_4_4_bar": 47,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      670
+    ],
+    "event_details": [
+      {
+        "event_index": 670,
+        "start_beat": 184.25,
+        "raw": "[-2 2 b7 +2]",
+        "note_count": 4,
+        "pitches": [
+          50,
+          62,
+          70,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 97,
+    "start_beat": 194.0,
+    "estimated_2_4_bar": 98,
+    "estimated_4_4_bar": 49,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      686
+    ],
+    "event_details": [
+      {
+        "event_index": 686,
+        "start_beat": 195.25,
+        "raw": "[-7 #1 #4 b7]",
+        "note_count": 4,
+        "pitches": [
+          59,
+          61,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 101,
+    "start_beat": 202.0,
+    "estimated_2_4_bar": 102,
+    "estimated_4_4_bar": 51,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      701
+    ],
+    "event_details": [
+      {
+        "event_index": 701,
+        "start_beat": 202.75,
+        "raw": "[-7 #1 #4 #5]",
+        "note_count": 4,
+        "pitches": [
+          59,
+          61,
+          66,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 127,
+    "start_beat": 254.0,
+    "estimated_2_4_bar": 128,
+    "estimated_4_4_bar": 64,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      872
+    ],
+    "event_details": [
+      {
+        "event_index": 872,
+        "start_beat": 254.5,
+        "raw": "[-7 #4 #5 +b3]",
+        "note_count": 4,
+        "pitches": [
+          59,
+          66,
+          68,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 142,
+    "start_beat": 284.0,
+    "estimated_2_4_bar": 143,
+    "estimated_4_4_bar": 72,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      986
+    ],
+    "event_details": [
+      {
+        "event_index": 986,
+        "start_beat": 285.75,
+        "raw": "[-#1 -#5 #1 #5]",
+        "note_count": 4,
+        "pitches": [
+          49,
+          56,
+          61,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 147,
+    "start_beat": 294.0,
+    "estimated_2_4_bar": 148,
+    "estimated_4_4_bar": 74,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      1019
+    ],
+    "event_details": [
+      {
+        "event_index": 1019,
+        "start_beat": 294.0,
+        "raw": "[-#1 -#5 #5 b7 +4]",
+        "note_count": 5,
+        "pitches": [
+          49,
+          56,
+          68,
+          70,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 148,
+    "start_beat": 296.0,
+    "estimated_2_4_bar": 149,
+    "estimated_4_4_bar": 75,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      1027
+    ],
+    "event_details": [
+      {
+        "event_index": 1027,
+        "start_beat": 296.0,
+        "raw": "[-4 b7 +#1 +4 +b7]",
+        "note_count": 5,
+        "pitches": [
+          53,
+          70,
+          73,
+          77,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 148,
+    "start_beat": 296.0,
+    "estimated_2_4_bar": 149,
+    "estimated_4_4_bar": 75,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      1034
+    ],
+    "event_details": [
+      {
+        "event_index": 1034,
+        "start_beat": 297.75,
+        "raw": "[-b3 b3 #4 b7]",
+        "note_count": 4,
+        "pitches": [
+          51,
+          63,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 150,
+    "start_beat": 300.0,
+    "estimated_2_4_bar": 151,
+    "estimated_4_4_bar": 76,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      1045
+    ],
+    "event_details": [
+      {
+        "event_index": 1045,
+        "start_beat": 300.5,
+        "raw": "[-#1 -#5 #5 +#1 +4]",
+        "note_count": 5,
+        "pitches": [
+          49,
+          56,
+          68,
+          73,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 150,
+    "start_beat": 300.0,
+    "estimated_2_4_bar": 151,
+    "estimated_4_4_bar": 76,
+    "evidence": "2拍窗口内存在 1 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      1045
+    ],
+    "event_details": [
+      {
+        "event_index": 1045,
+        "start_beat": 300.5,
+        "raw": "[-#1 -#5 #5 +#1 +4]",
+        "note_count": 5,
+        "pitches": [
+          49,
+          56,
+          68,
+          73,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "type": "和弦密度过高",
+    "severity": "Minor",
+    "confidence": "high",
+    "bar_2_beat_index": 151,
+    "start_beat": 302.0,
+    "estimated_2_4_bar": 152,
+    "estimated_4_4_bar": 76,
+    "evidence": "2拍窗口内存在 1 个同按数 >= 5 的 YAML 事件，最大同按 5。",
+    "events": [
+      1058
+    ],
+    "event_details": [
+      {
+        "event_index": 1058,
+        "start_beat": 303.75,
+        "raw": "[#1 #5 b7 +4 +#5]",
+        "note_count": 5,
+        "pitches": [
+          61,
+          68,
+          70,
+          77,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "type": "异常重音位置：弱拍高密度和弦",
+    "severity": "Minor",
+    "confidence": "medium",
+    "bar_2_beat_index": 151,
+    "start_beat": 302.0,
+    "estimated_2_4_bar": 152,
+    "estimated_4_4_bar": 76,
+    "evidence": "2拍窗口内存在 2 个高密度和弦落在非 0/1 拍位置，疑似 2/4 网格下的异常重音或错位感来源。",
+    "events": [
+      1056,
+      1058
+    ],
+    "event_details": [
+      {
+        "event_index": 1056,
+        "start_beat": 303.25,
+        "raw": "[-#4 4 b7 +#1]",
+        "note_count": 4,
+        "pitches": [
+          54,
+          65,
+          70,
+          73
+        ]
+      },
+      {
+        "event_index": 1058,
+        "start_beat": 303.75,
+        "raw": "[#1 #5 b7 +4 +#5]",
+        "note_count": 5,
+        "pitches": [
+          61,
+          68,
+          70,
+          77,
+          80
+        ]
+      }
+    ]
+  }
+]

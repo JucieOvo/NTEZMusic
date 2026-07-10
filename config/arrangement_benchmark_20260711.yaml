@@ -1,0 +1,71 @@
+experiment_id: arrangement_benchmark_20260711
+output_root: work/arrangement_benchmark_20260711
+reduced_velocity: 80
+
+songs:
+  - slug: cruel_angel
+    name: 残酷天使的行动纲领
+    source_mp3: '【Animenz】残酷天使的行动纲领 – 新世纪福音战士 OP1 钢琴版.mp3'
+  - slug: tada_koe_hitotsu
+    name: ただ声一つ (只想说一声) - ロクデナシ
+    source_mp3: 'ただ声一つ (只想说一声) - ロクデナシ.mp3'
+
+candidates:
+  - octave_fold
+  - adaptive_octave_fold
+  - hands_decoupled
+  - attention_weighted
+  - svsep_mpdr
+
+score_aware_mode: score_aware_theory
+
+metric_weights:
+  melody: 0.25
+  harmony: 0.20
+  rhythm: 0.20
+  bass: 0.15
+  voice_register: 0.10
+  audio_features: 0.10
+
+common_parameters:
+  beat_unit: 4
+  start_delay_seconds: 3.0
+  key_press_seconds: 0.0
+  quantize_beat: 0.25
+  max_chord_notes: 6
+  max_score_events: 5000
+  allow_accidentals: true
+  out_of_range_policy: octave_fold
+  ref_smoothing: 0.2
+  left_max_chord_notes: 3
+  phrase_gap_beats: 0.5
+  global_trend_alpha: 0.05
+  global_trend_window_beats: 4.0
+
+soundfont:
+  path: work/arrangement_benchmark_20260711/soundfont/SalamanderGrandPiano-SF2-V3+20200602/SalamanderGrandPiano-V3+20200602.sf2
+  source_url: https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  expected_sha256: 712d0e681efbe5203a8014e9b3e84168f1908c82f2f6fb13bd2c77d6d72c70b7
+
+tools:
+  fluidsynth: 'F:\NTEZMusic\work\arrangement_benchmark_20260711\tools\fluidsynth-v2.5.6\fluidsynth-v2.5.6-win10-x64-cpp11\bin\fluidsynth.exe'
+  ffmpeg: 'C:\Users\15311\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe'
+
+rendering:
+  sample_rate: 44100
+  mp3_bitrate: 320k
+
+audio_metrics:
+  frame_seconds: 0.1
+  n_mfcc: 20
+
+runtime:
+  python_path: 'C:\Users\15311\AppData\Local\Programs\Python\Python310\python.exe'
+  raw_midi_generator_path: work/transcription_benchmark/raw_midi_generator.py
+  svsep_model_path: piano_svsep/pretrained_models/model.ckpt
+  transcription_checkpoint: null
+  transcription_device: cuda
+  svsep_device: cuda
+  demucs_model: htdemucs_6s
+  demucs_stem: piano

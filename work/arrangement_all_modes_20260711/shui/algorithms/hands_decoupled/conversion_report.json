@@ -1,0 +1,31 @@
+{
+  "song_slug": "shui",
+  "mode": "hands_decoupled",
+  "reference_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\reference\\base_midi\\song.mid",
+  "bpm_sidecar": 117.5,
+  "midi_build": {
+    "output_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\hands_decoupled\\reduced.mid",
+    "note_count": 813,
+    "event_count": 703,
+    "max_simultaneous_notes": 6,
+    "min_pitch": 48,
+    "max_pitch": 82,
+    "duration_seconds": 142.85106382978617
+  },
+  "conversion_stats": {
+    "pitch_compression_mode": "hands_decoupled",
+    "raw_note_count": 946,
+    "output_note_count": 813,
+    "remapped_notes": 299,
+    "octave_moved_notes": 299,
+    "deduplicated_notes": 0,
+    "clipped_notes": 99,
+    "max_original_chord_notes": 9,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 34,
+    "ref_pitch_trajectory_start": 0.0,
+    "ref_pitch_trajectory_end": 0.0,
+    "onset_clustered_notes": 0,
+    "onset_clustered_groups": 0
+  }
+}

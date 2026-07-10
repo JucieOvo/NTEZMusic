@@ -1,0 +1,641 @@
+{
+  "experiment_id": "arrangement_all_modes_20260711",
+  "generated_at": "2026-07-11T05:14:27.779731+08:00",
+  "source_songs": {
+    "one_last_kiss_animenz": {
+      "source_mp3": "F:\\NTEZMusic\\【Animenz】One Last Kiss - 新·福音战士剧场版：终 钢琴.mp3",
+      "source_mp3_sha256": "7e8d1b0d4f9a09ca11646464157bfe15dfd6bdca4cab46cd928c2bd46dba47f0",
+      "bpm_sidecar": 112.3,
+      "reference_midi": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\reference\\base_midi\\song.mid",
+      "reference_midi_sha256": "abb01438ec31700db9caf97bcbc3bf01a4a6130973e0acd1155c8ac43eb5a530"
+    },
+    "mousou_aika_remix": {
+      "source_mp3": "F:\\NTEZMusic\\妄想哀歌 (feat_ 初音ミク & 可不) (Dreamydwaddie remix) (Remix) - Dreamydwaddie.mp3",
+      "source_mp3_sha256": "97ef39e175c7d825bb82374ff049eb50e106681714444a16ce881e5f460f9e5e",
+      "bpm_sidecar": 117.5,
+      "reference_midi": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\reference\\base_midi\\song.mid",
+      "reference_midi_sha256": "89b890784db1fdff5e4ce02fd6d503620c8eeb08c34a52744252825cb68d6aab"
+    },
+    "mihang_familiar_world": {
+      "source_mp3": "F:\\NTEZMusic\\audio_迷航在最熟悉的世界.mp3",
+      "source_mp3_sha256": "b8a6aaaf92467b14948bfddeb80d4934976e755f9fca5f35742c37ba44694a1e",
+      "bpm_sidecar": 143.6,
+      "reference_midi": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\reference\\base_midi\\song.mid",
+      "reference_midi_sha256": "ae7e95bd8baeda6c56dc51155ed2624b03c39c00219d149db51b86215a26bebe"
+    },
+    "shui": {
+      "source_mp3": "F:\\NTEZMusic\\audio_水....mp3",
+      "source_mp3_sha256": "cff6ef971bd9a36fd5979c05b81c26593f1f48cccd279d424ada25effa78b02b",
+      "bpm_sidecar": 117.5,
+      "reference_midi": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\reference\\base_midi\\song.mid",
+      "reference_midi_sha256": "71653d0b22bbafbfd972baeff2c5b3015ad7a60ccd500e82b7b1b10b3eb103cf"
+    },
+    "beautiful": {
+      "source_mp3": "F:\\NTEZMusic\\audio_Beautiful.mp3",
+      "source_mp3_sha256": "cf45b476740d5a290b8fe680bd4e8c5a2af89f4ca8f0cb7f90efca6b3153662a",
+      "bpm_sidecar": 117.5,
+      "reference_midi": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\reference\\base_midi\\song.mid",
+      "reference_midi_sha256": "eff88b15974a9dc8167d38091d0ed8a1bb58aff57b8b30f0e59455109398674a"
+    }
+  },
+  "soundfont": {
+    "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\soundfont\\SalamanderGrandPiano-SF2-V3+20200602\\SalamanderGrandPiano-V3+20200602.sf2",
+    "sha256": "712d0e681efbe5203a8014e9b3e84168f1908c82f2f6fb13bd2c77d6d72c70b7",
+    "source_url": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "expected_sha256": "712d0e681efbe5203a8014e9b3e84168f1908c82f2f6fb13bd2c77d6d72c70b7"
+  },
+  "ranking_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\reports\\ranking.json",
+  "top_blind_modes": [
+    "adaptive_octave_fold",
+    "attention_weighted"
+  ],
+  "failures": {},
+  "candidate_modes": [
+    "adaptive_octave_fold",
+    "hands_decoupled",
+    "attention_weighted",
+    "svsep_mpdr"
+  ],
+  "score_aware_mode": null,
+  "parameters": {
+    "reduced_velocity": 80,
+    "common_parameters": {
+      "beat_unit": 4,
+      "start_delay_seconds": 3.0,
+      "key_press_seconds": 0.0,
+      "quantize_beat": 0.25,
+      "max_chord_notes": 6,
+      "max_score_events": 5000,
+      "allow_accidentals": true,
+      "out_of_range_policy": "octave_fold",
+      "ref_smoothing": 0.2,
+      "left_max_chord_notes": 3,
+      "phrase_gap_beats": 0.5,
+      "global_trend_alpha": 0.05,
+      "global_trend_window_beats": 4.0
+    },
+    "rendering": {
+      "sample_rate": 44100,
+      "mp3_bitrate": "320k"
+    },
+    "audio_metrics": {
+      "frame_seconds": 0.1,
+      "n_mfcc": 20
+    },
+    "metric_weights": {
+      "bass": 0.15,
+      "melody": 0.25,
+      "voice_register": 0.1,
+      "harmony": 0.2,
+      "audio_features": 0.1,
+      "rhythm": 0.2
+    }
+  },
+  "artifacts": {
+    "one_last_kiss_animenz": {
+      "reference": {
+        "midi": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\reference\\base_midi\\song.mid",
+          "sha256": "abb01438ec31700db9caf97bcbc3bf01a4a6130973e0acd1155c8ac43eb5a530"
+        },
+        "wav": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\reference\\audio\\original_grand_piano.wav",
+          "sha256": "75b000d20bf320b9fa19bbe546112adb972bd17d66d0006642355cf96e84d2a7"
+        },
+        "mp3": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\reference\\audio\\original_grand_piano.mp3",
+          "sha256": "792f5463aa670cf0134f2a095b2a21bc1c85b869ecc2b2dce86d58ada064f02b"
+        }
+      },
+      "candidates": {
+        "adaptive_octave_fold": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\adaptive_octave_fold\\reduced.yaml",
+            "sha256": "7691a1a2100cb59f7273fbc5669d205da0d0e61e5c1b413f6a6fb2ba6f794c20"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\adaptive_octave_fold\\reduced.mid",
+            "sha256": "ce7217764087d93893d15572f1fa05533effabeb944baeabb36d774ac57bc83f"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\adaptive_octave_fold\\reduced_piano.wav",
+            "sha256": "19d9a6fd70bc869400bcc892844f302a489b151fdfa46c65b07df13310602bb3"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\adaptive_octave_fold\\reduced_piano.mp3",
+            "sha256": "210c6e39930b92ff3c00ca351c0cc20af6c7dfc3c97fc9ba7e596928c000e097"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\adaptive_octave_fold\\metrics.json",
+            "sha256": "8d84b3608e9bd77aeb5bc25b0bc127692b149f9935ddbeb8aed82e4977362f24"
+          }
+        },
+        "hands_decoupled": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\hands_decoupled\\reduced.yaml",
+            "sha256": "a64df47f4e7845334107bdbd137bb2fc4fe06f4d3109452691c3a2bbbc9539ba"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\hands_decoupled\\reduced.mid",
+            "sha256": "cb5721d2da069d09b192fafab48add1b9064992736dd47df96b4dd88c2ec3bfb"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\hands_decoupled\\reduced_piano.wav",
+            "sha256": "8f320fa1e144e0c6821a7e68c75cc04b8b0d5a687a9270774ee288d211f6e6b8"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\hands_decoupled\\reduced_piano.mp3",
+            "sha256": "2c8bd997bbef822c8f1b8f5f1060c99d75e189440b72505c810ddadd0a04e680"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\hands_decoupled\\metrics.json",
+            "sha256": "ef8bd44bb71d366cd35584f914e759d84e808f8e10a358d5ba89a7965c0f4f7b"
+          }
+        },
+        "attention_weighted": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\attention_weighted\\reduced.yaml",
+            "sha256": "8789c5425023fb61faff6be751981343d35ca52b0c7dbd62f42f25392bee4047"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\attention_weighted\\reduced.mid",
+            "sha256": "b206d72189b6f8c4091b0260f5ebc30dba29ea42972de1d8931c3e29fecde9bf"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\attention_weighted\\reduced_piano.wav",
+            "sha256": "b5c45211acbe05e2d5b59c9a8ec4f28b10a9c94de2546960c4124c4ecb0544d1"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\attention_weighted\\reduced_piano.mp3",
+            "sha256": "3df6d4b3b345a23a993b3e2206e8579d86c8c94839a3bc6d016ae303c0d16ac9"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\attention_weighted\\metrics.json",
+            "sha256": "4169e6d42b23579820c1781eb573fc3cb4545fac4db6c42c068dc5f3965978b2"
+          }
+        },
+        "svsep_mpdr": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\svsep_mpdr\\reduced.yaml",
+            "sha256": "2642de662c2183eb8c7ce58bd72aaf77e1fb70dcc38c2fa763da66c50bbd5001"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\svsep_mpdr\\reduced.mid",
+            "sha256": "dcb4f3b07976e51ae3be3e9295f64bd086bf0c5756464b1a9a0473d2967f28a7"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\svsep_mpdr\\reduced_piano.wav",
+            "sha256": "89be1b04210295c93fc3638f45dcb0d25acaea5fe840c9623cdfccab75447189"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\svsep_mpdr\\reduced_piano.mp3",
+            "sha256": "9173c605fc9794bc1510506d57c859dd632115251fc9864d289fb7c667a9d444"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\one_last_kiss_animenz\\algorithms\\svsep_mpdr\\metrics.json",
+            "sha256": "319bfff552b144bc0a36a05e9428e380cb12950bf1d0fc266e88febbfce04c19"
+          }
+        }
+      }
+    },
+    "mousou_aika_remix": {
+      "reference": {
+        "midi": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\reference\\base_midi\\song.mid",
+          "sha256": "89b890784db1fdff5e4ce02fd6d503620c8eeb08c34a52744252825cb68d6aab"
+        },
+        "wav": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\reference\\audio\\original_grand_piano.wav",
+          "sha256": "e673def86c3a7122b2b2bad2459cccc1c3b84719898f58e499d2d98045fadcf4"
+        },
+        "mp3": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\reference\\audio\\original_grand_piano.mp3",
+          "sha256": "725e6ed81629d50bc82a576bc77d1467ec7c2ebd5f7f2d919653ae8e1c6f2995"
+        }
+      },
+      "candidates": {
+        "adaptive_octave_fold": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\adaptive_octave_fold\\reduced.yaml",
+            "sha256": "846c187e6eb0a60b15610f1e71ce309982f07b39206955d5e782c9a80c21c2ce"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\adaptive_octave_fold\\reduced.mid",
+            "sha256": "7acc67bcef25e2dc696bdd9174c6a6419cbed4b47b7d4dee817765e58bd2a988"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\adaptive_octave_fold\\reduced_piano.wav",
+            "sha256": "f94238e641818004c3c17ed4ba44d373a5599f20aeed2d5ad7431d4535f281f5"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\adaptive_octave_fold\\reduced_piano.mp3",
+            "sha256": "fd20687ceb0f6d3bb01b88320c96aa004ef05afe74750710e9184fac581618f8"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\adaptive_octave_fold\\metrics.json",
+            "sha256": "1c30810ffff55157f6df806e666cc9989d49d1c04a693bf4f2a3f754639e8868"
+          }
+        },
+        "hands_decoupled": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\hands_decoupled\\reduced.yaml",
+            "sha256": "2dbc0dafbaa457cb8ae85391ae2457ee01e2f410d9924e086ba74dbcfa546df2"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\hands_decoupled\\reduced.mid",
+            "sha256": "a787559d51e03022d115ce0cdf6482a958fa103a85eb1c129c31ca6cc9317d03"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\hands_decoupled\\reduced_piano.wav",
+            "sha256": "6c9d757ad2bd93a3ff780ca52a25159c5b288efc64def3fab430c2861b9bc4c4"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\hands_decoupled\\reduced_piano.mp3",
+            "sha256": "3f0a2243cae7a8167b624ae2bad255c05cf95bec3b05368d90e4e58bb11b8e80"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\hands_decoupled\\metrics.json",
+            "sha256": "f98b50477b6806cef2ed123cb39a0c469d8df2667e5ab6e376f202943fd79b5c"
+          }
+        },
+        "attention_weighted": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\attention_weighted\\reduced.yaml",
+            "sha256": "3ad0c35794683391ff0a4fa22d2846ee4742f779e58a92dac883885a00168092"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\attention_weighted\\reduced.mid",
+            "sha256": "684ff19a6b162d47497ff9f39cc93f4aad3f8c189516216d066d68d4dc3025dd"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\attention_weighted\\reduced_piano.wav",
+            "sha256": "ccd29a5b166a0be55e3a5d93ccfe0adbfe2ebe67e525a21f4ed504b71a31f7c5"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\attention_weighted\\reduced_piano.mp3",
+            "sha256": "4bc065a43be3b18fc49a543f650afdb3e960d02d72e72df232062a42ace8d5b4"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\attention_weighted\\metrics.json",
+            "sha256": "fbfee734a81f91043787ac6ace4f0d9007a591e803bac49e4bd3519c8a189355"
+          }
+        },
+        "svsep_mpdr": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\svsep_mpdr\\reduced.yaml",
+            "sha256": "c1a5dfc8ff83432fa4fea1feded32fd4009cba6ec383c761bcf7ab1a51edfad0"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\svsep_mpdr\\reduced.mid",
+            "sha256": "478c9f858a804dc88a4844c6a20bc24e99a2d8f4c7fd55a2f0f8ff15f74f348d"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\svsep_mpdr\\reduced_piano.wav",
+            "sha256": "4bfe734f08f2c39cda3e7b7208f4f0e855522b48daebcc0e8d6a38c6bee669fc"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\svsep_mpdr\\reduced_piano.mp3",
+            "sha256": "567742964ef88aa04b0747a8a71415575945ccbc459283778ae99b6799e96dec"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mousou_aika_remix\\algorithms\\svsep_mpdr\\metrics.json",
+            "sha256": "19a4ffcbdfff8441056eef142f3d60d11fb3822cb58cbecfe2fe71926d5ef695"
+          }
+        }
+      }
+    },
+    "mihang_familiar_world": {
+      "reference": {
+        "midi": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\reference\\base_midi\\song.mid",
+          "sha256": "ae7e95bd8baeda6c56dc51155ed2624b03c39c00219d149db51b86215a26bebe"
+        },
+        "wav": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\reference\\audio\\original_grand_piano.wav",
+          "sha256": "259a5482190ab987b831a41fb286e022a23414f69881be766ce3a409ec13e08d"
+        },
+        "mp3": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\reference\\audio\\original_grand_piano.mp3",
+          "sha256": "60f8a50d0d9a571b0b63bd9eed67a0cea4f4d7f0905be5c61c8b20ed51af9384"
+        }
+      },
+      "candidates": {
+        "adaptive_octave_fold": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\adaptive_octave_fold\\reduced.yaml",
+            "sha256": "8c3ededf26a84e987479587646b9ddc089dc488d2ce0ed260c588865b0caa011"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\adaptive_octave_fold\\reduced.mid",
+            "sha256": "9fb38cd49c8e43ef3a4f4f70532d44973e6a179e3fe2431e85c403dea7417c1e"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\adaptive_octave_fold\\reduced_piano.wav",
+            "sha256": "8688d06922f500856f00fcb64ca19a74bb8b2df8a822bda694b6f197d6d98d04"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\adaptive_octave_fold\\reduced_piano.mp3",
+            "sha256": "2a544cae7612dc7c4014e4549eec5fc2d1144b50e335665165894492a4b344fb"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\adaptive_octave_fold\\metrics.json",
+            "sha256": "7b1f35eea4ecc490f6d16451f47bc247ac22c2453c614d026c30e72d6a791883"
+          }
+        },
+        "hands_decoupled": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\hands_decoupled\\reduced.yaml",
+            "sha256": "256276de80035019b6aebe37530012c1771d17290c470a0833ff4d10da06d51b"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\hands_decoupled\\reduced.mid",
+            "sha256": "2cfca4b0ff3b0b5772103a26f2733fbe401c43bb2a4425691238b15e1eec6815"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\hands_decoupled\\reduced_piano.wav",
+            "sha256": "6cd8b3f0930c468c1bace033cd04b8facd2374d78b434461804e36c26f3b80de"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\hands_decoupled\\reduced_piano.mp3",
+            "sha256": "f32d534b69cb90b71ca66fe02a3c9563e8daf53642dedc5638e883d9672224cc"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\hands_decoupled\\metrics.json",
+            "sha256": "c0213be25ba3598a64ee343caefe1d0d97ab8d83dff743c2b0552f803526745c"
+          }
+        },
+        "attention_weighted": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\attention_weighted\\reduced.yaml",
+            "sha256": "614b0204ee81169cdca285e67542f222ba6dadaebac0acd01055113a425d733c"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\attention_weighted\\reduced.mid",
+            "sha256": "856ce736cf324a2128ed74bc4c170df85abcd652d44b602806bcdcc1f9ddc3ac"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\attention_weighted\\reduced_piano.wav",
+            "sha256": "73ca287a958e92364f7ebaed277639b3089c29cca614e9049e2f12215d082ab4"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\attention_weighted\\reduced_piano.mp3",
+            "sha256": "ec7429aa7098624e2072eb6a2604cafcf65133ef615ae15aac3e7bd0d465b19a"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\attention_weighted\\metrics.json",
+            "sha256": "305a3fffdb8c4e717769cae9edb8116b2a1f267b705a1d1f9ef1b8fd284273e3"
+          }
+        },
+        "svsep_mpdr": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\svsep_mpdr\\reduced.yaml",
+            "sha256": "ff291153c12cdb3b76baff6585b5aae9d85ad314f5c742718a802cfa215f9802"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\svsep_mpdr\\reduced.mid",
+            "sha256": "65192c71ee123ad815a801e63299a13aa3657c8d3abdeb093a4e17fea0cdc088"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\svsep_mpdr\\reduced_piano.wav",
+            "sha256": "9ec18a44fa52071f05f293ce1fbb82c19c6c74605bf3f6756d46151438e33523"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\svsep_mpdr\\reduced_piano.mp3",
+            "sha256": "75624c303bf1f5f2fb0dad8c8f24921f504ec1c6a67599e2994a44b878cd7eb5"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\svsep_mpdr\\metrics.json",
+            "sha256": "a99dc66da06864e113ecf2edc9b155d6d4c6dcca460255297fd035fb218a621f"
+          }
+        }
+      }
+    },
+    "shui": {
+      "reference": {
+        "midi": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\reference\\base_midi\\song.mid",
+          "sha256": "71653d0b22bbafbfd972baeff2c5b3015ad7a60ccd500e82b7b1b10b3eb103cf"
+        },
+        "wav": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\reference\\audio\\original_grand_piano.wav",
+          "sha256": "0681cd706a782b9bc0758145154e64e4d2480644daca82f2c3bf7ef4f2bfe286"
+        },
+        "mp3": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\reference\\audio\\original_grand_piano.mp3",
+          "sha256": "9ccedc92af6672e9ede137bfb0464385052ce0e1b6ed1891ac4a2d930077c336"
+        }
+      },
+      "candidates": {
+        "adaptive_octave_fold": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\adaptive_octave_fold\\reduced.yaml",
+            "sha256": "8cad434b51b1329ee76c1fa909f274efa8ffa506273564c5a32f3f749979da0b"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\adaptive_octave_fold\\reduced.mid",
+            "sha256": "a704adec2888ec4fc4ea3aeb57f2a178bc3f07bfb0b392fb8674c57e6a9bc6e9"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\adaptive_octave_fold\\reduced_piano.wav",
+            "sha256": "34037a9cb8744c157050c1eb95f198736be65ac0406f7851de40cc3c47869a94"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\adaptive_octave_fold\\reduced_piano.mp3",
+            "sha256": "490d227c18bacd1ddf972536f75b6fa7279f67b48c72c8257619f7bfb5e397cb"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\adaptive_octave_fold\\metrics.json",
+            "sha256": "5138c2fde4c27264826acf7b00cfccd2726ad4ecf41ab495f731f11c99982da6"
+          }
+        },
+        "hands_decoupled": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\hands_decoupled\\reduced.yaml",
+            "sha256": "6136cdf226c49d54a882f14ebdcf18b1d9eda3f5346e9986372b42519bc1f5db"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\hands_decoupled\\reduced.mid",
+            "sha256": "6674a0cbf5073fe943368a8ddd88373fcfb5394f1d36ea828c6d00ca63fcc241"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\hands_decoupled\\reduced_piano.wav",
+            "sha256": "5522f648f04d0ad466b1743a6359b23f965a78ba60bcfdd4be7caa036eb92396"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\hands_decoupled\\reduced_piano.mp3",
+            "sha256": "9e488117a8d036fa5908ad4fe4d7b909fd000be3839435b1588c1571d606f5db"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\hands_decoupled\\metrics.json",
+            "sha256": "c7b4d324bd4006ba66d725deecfeaeaf56055d67819b9947189dc611bc2a4235"
+          }
+        },
+        "attention_weighted": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\attention_weighted\\reduced.yaml",
+            "sha256": "ef088938544609c45484912aeca2628ea36126549dda78a6b5bf86f4ad72cace"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\attention_weighted\\reduced.mid",
+            "sha256": "b35abcf9db8b845fbdcb220d4168510c600b66480af893fa36a82aef58ff8cba"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\attention_weighted\\reduced_piano.wav",
+            "sha256": "dbca03a86dbb06729824ca8786f54a855a0d1b9540e6ab6b247eaf295d04ca57"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\attention_weighted\\reduced_piano.mp3",
+            "sha256": "743c084ba169fe91a0c573b1aa811aa7748044527272e268ab0639486ad6c736"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\attention_weighted\\metrics.json",
+            "sha256": "30a41e40b58865f90ccdac086a62cd49f5c0ce7c6c8c047fbbe1f02c50b948fb"
+          }
+        },
+        "svsep_mpdr": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\svsep_mpdr\\reduced.yaml",
+            "sha256": "8c9902175ce299fc25e08108735c487b82ff15bb16a0823196dfe4fed325523b"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\svsep_mpdr\\reduced.mid",
+            "sha256": "7df9aa472be62a9ab65ca1b93407b78c6a85425c267da63b930d83e445aab2c1"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\svsep_mpdr\\reduced_piano.wav",
+            "sha256": "4011314f0171254f245a4d7a6af9cd52ff051fa9a800a219601a6b1ef2c1aa78"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\svsep_mpdr\\reduced_piano.mp3",
+            "sha256": "fc5d3165f6d057bdb62c14d791fb5686e976680882e98c2a23be0563624f7b2b"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\shui\\algorithms\\svsep_mpdr\\metrics.json",
+            "sha256": "1a3b3adf7645230236a64e04565730c818c9fb1a9c4fde0a9da878fc12f67ed5"
+          }
+        }
+      }
+    },
+    "beautiful": {
+      "reference": {
+        "midi": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\reference\\base_midi\\song.mid",
+          "sha256": "eff88b15974a9dc8167d38091d0ed8a1bb58aff57b8b30f0e59455109398674a"
+        },
+        "wav": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\reference\\audio\\original_grand_piano.wav",
+          "sha256": "852d3c0982dd30e25654f01e82b195559c6192174677bf07ad32c9e5f0278b5d"
+        },
+        "mp3": {
+          "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\reference\\audio\\original_grand_piano.mp3",
+          "sha256": "0e733e7d170f69eaef4c51e38685662d2c77d4ba4f2f03e71035576bf049bf07"
+        }
+      },
+      "candidates": {
+        "adaptive_octave_fold": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\adaptive_octave_fold\\reduced.yaml",
+            "sha256": "9139dd606a12aaad2a3ff0fa29114e84e23dd68b02a7f2ff7aeb5c5db23db783"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\adaptive_octave_fold\\reduced.mid",
+            "sha256": "0e0c4f7f736e6d930a5c1354832d6bfc8f8bc1fff7fffceb9568ff124a9f6930"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\adaptive_octave_fold\\reduced_piano.wav",
+            "sha256": "766347ccb99444b8351453a15cfa86292751da691c759e9f673be9c7587b45f5"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\adaptive_octave_fold\\reduced_piano.mp3",
+            "sha256": "08b0c68d1d8cb05709fff8f9580d13659025ab4b3b686c93159866f44c9e7bd0"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\adaptive_octave_fold\\metrics.json",
+            "sha256": "1fccfc8eddc0e7d47415da8f3cf6c65edb5143df6a16fe10d77160cf938d4906"
+          }
+        },
+        "hands_decoupled": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\hands_decoupled\\reduced.yaml",
+            "sha256": "4ed294df64444c34d444899941d4136b89975e3297aa27e2a4195f62ac80a241"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\hands_decoupled\\reduced.mid",
+            "sha256": "653020f3a5940cb2905c2a7d60735503098398057d269d5254fdcc8cb9dad674"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\hands_decoupled\\reduced_piano.wav",
+            "sha256": "f70c75866d45c32327983ae0513cac19167622ee2692f84350791dc0c60834ba"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\hands_decoupled\\reduced_piano.mp3",
+            "sha256": "af2342fc5b8f26b3a00a67a395e9e6b2b31ac68e0649aa094fd356ec611388fb"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\hands_decoupled\\metrics.json",
+            "sha256": "c1b389d323fefd0ba30859bae09a14e5580d5763ec4928925852661a624c4344"
+          }
+        },
+        "attention_weighted": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\attention_weighted\\reduced.yaml",
+            "sha256": "c5ec646a31b747da211e347712352acceb18c2f58dccf63f9a5b3d7f4fb8ece0"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\attention_weighted\\reduced.mid",
+            "sha256": "dc2ab89832f8071a34a5ceb6dab46bdb59f06c2c3b9eac2c466d953521279f5b"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\attention_weighted\\reduced_piano.wav",
+            "sha256": "cfe661117dd0730fbf440c718a648668ca2b045d5119f2e429e69a57201c955f"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\attention_weighted\\reduced_piano.mp3",
+            "sha256": "298742cf294549a8274da9a6b8dbd7a50c371e8d9d6bfaf26fa207a50d4e127d"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\attention_weighted\\metrics.json",
+            "sha256": "7c48b086ebdbc75e69f2f2b62952bfabb9a6266d94031abc7dd6647029e856a7"
+          }
+        },
+        "svsep_mpdr": {
+          "yaml": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\svsep_mpdr\\reduced.yaml",
+            "sha256": "053ede2f46d22aae9f409bd4cb01d4dc6866bf25511da55ac026b0195a97f926"
+          },
+          "midi": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\svsep_mpdr\\reduced.mid",
+            "sha256": "53ef625ef545f5bb325b2cb6381b6b9537b1472e64509880c8c9d50ffce9af01"
+          },
+          "wav": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\svsep_mpdr\\reduced_piano.wav",
+            "sha256": "fa4db63be57aaac004837da434afce274afde290ca668bfc6a6814977e75dda9"
+          },
+          "mp3": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\svsep_mpdr\\reduced_piano.mp3",
+            "sha256": "9733ec3d0fb5f24ee1f3382c5e095293822da9b9abcb08c1af32b399e2c1c0db"
+          },
+          "metrics": {
+            "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\algorithms\\svsep_mpdr\\metrics.json",
+            "sha256": "5fa2b12a9a798be5af3add0dc8089db9fee522b7f179e05d63fef91e4e27caf1"
+          }
+        }
+      }
+    }
+  },
+  "tools": {
+    "fluidsynth": {
+      "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\tools\\fluidsynth-v2.5.6\\fluidsynth-v2.5.6-win10-x64-cpp11\\bin\\fluidsynth.exe",
+      "sha256": "23bfbfa8d2e8fe88cb2698969e06fce8ed56217de834133904884784ff69ed1e"
+    },
+    "ffmpeg": {
+      "path": "C:\\Users\\15311\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.exe",
+      "sha256": "74db6c184a03dba2bdfe23e1a1f41cf5a8385bc1de6a7a1b26db1dc541abef93"
+    }
+  },
+  "blind_mapping": {
+    "path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\blind_listening\\mapping_sealed.json",
+    "sha256": "f972b1bc5f7ad623901d6672396c48742e59bb971d62e1cc0834902d19e0a64a"
+  }
+}

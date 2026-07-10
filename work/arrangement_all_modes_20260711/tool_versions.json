@@ -1,0 +1,65 @@
+{
+  "python": {
+    "path": "C:\\Users\\15311\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "sha256": "3cce33d75d6fdae4e004d0bdf149320b3147482a9caf370079dcb9c191a1b260"
+  },
+  "raw_midi_generator": {
+    "path": "F:\\NTEZMusic\\work\\transcription_benchmark\\raw_midi_generator.py",
+    "sha256": "c697c9e0a799e1001c2bee7e2997f1b83d6c6c09d35f8f6b07490dcc9999b356"
+  },
+  "svsep_model": {
+    "path": "F:\\NTEZMusic\\piano_svsep\\pretrained_models\\model.ckpt",
+    "sha256": "1f71ab8b6c7cd271e18adfba5ccbcd634a8530a44e46aabede27e15ce84dbe32"
+  },
+  "soundfont": {
+    "path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\soundfont\\SalamanderGrandPiano-SF2-V3+20200602\\SalamanderGrandPiano-V3+20200602.sf2",
+    "sha256": "712d0e681efbe5203a8014e9b3e84168f1908c82f2f6fb13bd2c77d6d72c70b7"
+  },
+  "song:one_last_kiss_animenz": {
+    "path": "F:\\NTEZMusic\\【Animenz】One Last Kiss - 新·福音战士剧场版：终 钢琴.mp3",
+    "sha256": "7e8d1b0d4f9a09ca11646464157bfe15dfd6bdca4cab46cd928c2bd46dba47f0"
+  },
+  "song:mousou_aika_remix": {
+    "path": "F:\\NTEZMusic\\妄想哀歌 (feat_ 初音ミク & 可不) (Dreamydwaddie remix) (Remix) - Dreamydwaddie.mp3",
+    "sha256": "97ef39e175c7d825bb82374ff049eb50e106681714444a16ce881e5f460f9e5e"
+  },
+  "song:mihang_familiar_world": {
+    "path": "F:\\NTEZMusic\\audio_迷航在最熟悉的世界.mp3",
+    "sha256": "b8a6aaaf92467b14948bfddeb80d4934976e755f9fca5f35742c37ba44694a1e"
+  },
+  "song:shui": {
+    "path": "F:\\NTEZMusic\\audio_水....mp3",
+    "sha256": "cff6ef971bd9a36fd5979c05b81c26593f1f48cccd279d424ada25effa78b02b"
+  },
+  "song:beautiful": {
+    "path": "F:\\NTEZMusic\\audio_Beautiful.mp3",
+    "sha256": "cf45b476740d5a290b8fe680bd4e8c5a2af89f4ca8f0cb7f90efca6b3153662a"
+  },
+  "python_modules": {
+    "yaml": "available",
+    "pretty_midi": "available",
+    "librosa": "available",
+    "soundfile": "available",
+    "scipy": "available",
+    "numpy": "available",
+    "music21": "available",
+    "demucs": "available",
+    "transkun": "available",
+    "mido": "available",
+    "soxr": "available",
+    "moduleconf": "available",
+    "torch": "available",
+    "partitura": "available",
+    "torch_geometric": "available",
+    "pytorch_lightning": "available"
+  },
+  "cuda": {
+    "available": true,
+    "device_count": 1,
+    "torch_version": "2.7.1+cu118"
+  },
+  "tool:fluidsynth": "FluidSynth runtime version 2.5.6\nCopyright (C) 2000-2026 Peter Hanappe and others.\nDistributed under the LGPL license.\nSoundFont(R) is a registered trademark of Creative Technology Ltd.\n\nFluidSynth executable version 2.5.6\nSample type=float",
+  "tool:ffmpeg": "ffmpeg version 8.0.1-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers\nbuilt with gcc 15.2.0 (Rev8, Built by MSYS2 project)\nconfiguration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper\nlibavutil      60.  8.100 / 60.  8.100\nlibavcodec     62. 11.100 / 62. 11.100\nlibavformat    62.  3.100 / 62.  3.100\nlibavdevice    62.  1.100 / 62.  1.100\nlibavfilter    11.  4.100 / 11.  4.100\nlibswscale      9.  1.100 /  9.  1.100\nlibswresample   6.  1.100 /  6.  1.100\n\nExiting with exit code 0",
+  "tool:python": "Python 3.10.11",
+  "failures": []
+}

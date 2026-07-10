@@ -1,0 +1,21 @@
+{
+  "is_valid": true,
+  "musicxml_exported": true,
+  "musicxml_reloaded": true,
+  "invalid_measure_count": 0,
+  "unassigned_note_count": 0,
+  "messages": [],
+  "raw_note_count": 3389,
+  "merged_note_count": 117,
+  "filtered_noise_count": 0,
+  "onset_clustered_group_count": 753,
+  "output_note_count": 3272,
+  "bpm": 129.2,
+  "time_signature": "4/4",
+  "bar_count": 156,
+  "quantized_note_count": 3272,
+  "musicxml_path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\algorithms\\score_aware_theory\\work\\score_aware_theory\\generated.musicxml",
+  "arrangement_enabled": true,
+  "arrangement_valid": true,
+  "arrangement_output_note_count": 3001
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "octave_fold",
+  "song_slug": "cruel_angel",
+  "error": "候选 octave_fold 违反硬约束: YAML 存在超过 6 音的同时事件",
+  "traceback": "Traceback (most recent call last):\n  File \"F:\\NTEZMusic\\src\\arrangement_benchmark\\runner.py\", line 669, in run_full_benchmark\n    evaluations[mode][source.song.slug] = self._evaluate_candidate(source, mode)\n  File \"F:\\NTEZMusic\\src\\arrangement_benchmark\\runner.py\", line 528, in _evaluate_candidate\n    candidate_result = self.run_candidate_from_midi(\n  File \"F:\\NTEZMusic\\src\\arrangement_benchmark\\runner.py\", line 415, in run_candidate_from_midi\n    raise RuntimeError(\nRuntimeError: 候选 octave_fold 违反硬约束: YAML 存在超过 6 音的同时事件\n"
+}

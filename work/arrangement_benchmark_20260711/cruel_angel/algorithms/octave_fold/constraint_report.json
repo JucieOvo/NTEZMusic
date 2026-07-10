@@ -1,0 +1,8 @@
+{
+  "passed": false,
+  "violations": [
+    "YAML 存在超过 6 音的同时事件"
+  ],
+  "score_event_count": 2236,
+  "midi_note_count": 3004
+}

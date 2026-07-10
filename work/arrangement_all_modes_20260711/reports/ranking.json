@@ -1,0 +1,50 @@
+{
+  "conclusion_scope": "仅限本基准5首歌曲",
+  "ranking": [
+    {
+      "mode": "adaptive_octave_fold",
+      "average_score": 0.5309786868672901,
+      "per_song_scores": {
+        "one_last_kiss_animenz": 0.4689862732007816,
+        "mousou_aika_remix": 0.8612850027045147,
+        "mihang_familiar_world": 0.3884215076688869,
+        "shui": 0.5072800263896682,
+        "beautiful": 0.428920624372599
+      }
+    },
+    {
+      "mode": "attention_weighted",
+      "average_score": 0.5304755638565359,
+      "per_song_scores": {
+        "one_last_kiss_animenz": 0.4691189260167525,
+        "mousou_aika_remix": 0.8531113600532756,
+        "mihang_familiar_world": 0.3858666518574669,
+        "shui": 0.5132804842401816,
+        "beautiful": 0.43100039711500326
+      }
+    },
+    {
+      "mode": "hands_decoupled",
+      "average_score": 0.5279232201938584,
+      "per_song_scores": {
+        "one_last_kiss_animenz": 0.4676217970740431,
+        "mousou_aika_remix": 0.8530670418679209,
+        "mihang_familiar_world": 0.38709526891531193,
+        "shui": 0.5052710010195299,
+        "beautiful": 0.42656099209248566
+      }
+    },
+    {
+      "mode": "svsep_mpdr",
+      "average_score": 0.5272918883741896,
+      "per_song_scores": {
+        "one_last_kiss_animenz": 0.47654001886865693,
+        "mousou_aika_remix": 0.8212589864889082,
+        "mihang_familiar_world": 0.38680358526895536,
+        "shui": 0.5216191185163572,
+        "beautiful": 0.43023773272807064
+      }
+    }
+  ],
+  "failures": {}
+}

@@ -1,0 +1,25 @@
+{
+  "song_slug": "mihang_familiar_world",
+  "mode": "hands_decoupled",
+  "score": 0.38709526891531193,
+  "metrics": {
+    "melody": 0.280745246280035,
+    "rhythm": 0.12983770287141072,
+    "bass": 0.33416222494483594,
+    "voice_register": 0.2692009320690796,
+    "harmony": 0.575209379196167,
+    "audio_features": 0.988551139831543
+  },
+  "weights": {
+    "bass": 0.15,
+    "melody": 0.25,
+    "voice_register": 0.1,
+    "harmony": 0.2,
+    "audio_features": 0.1,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "ae7e95bd8baeda6c56dc51155ed2624b03c39c00219d149db51b86215a26bebe",
+  "reduced_midi_sha256": "2cfca4b0ff3b0b5772103a26f2733fbe401c43bb2a4425691238b15e1eec6815",
+  "wav_sha256": "6cd8b3f0930c468c1bace033cd04b8facd2374d78b434461804e36c26f3b80de",
+  "mp3_sha256": "f32d534b69cb90b71ca66fe02a3c9563e8daf53642dedc5638e883d9672224cc"
+}

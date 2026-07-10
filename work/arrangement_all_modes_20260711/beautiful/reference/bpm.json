@@ -1,0 +1,6 @@
+{
+  "song_slug": "beautiful",
+  "detected_bpm": 117.5,
+  "source_mp3": "F:\\NTEZMusic\\audio_Beautiful.mp3",
+  "note": "BPM 只作为 sidecar 使用，不改写原始 B MIDI"
+}

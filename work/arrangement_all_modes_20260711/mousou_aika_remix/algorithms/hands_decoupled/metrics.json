@@ -1,0 +1,25 @@
+{
+  "song_slug": "mousou_aika_remix",
+  "mode": "hands_decoupled",
+  "score": 0.8530670418679209,
+  "metrics": {
+    "melody": 0.820789961931125,
+    "rhythm": 0.9761019649495486,
+    "bass": 0.8350001651189427,
+    "voice_register": 0.7669547695395705,
+    "harmony": 0.7555675506591797,
+    "audio_features": 0.9959014654159546
+  },
+  "weights": {
+    "bass": 0.15,
+    "melody": 0.25,
+    "voice_register": 0.1,
+    "harmony": 0.2,
+    "audio_features": 0.1,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "89b890784db1fdff5e4ce02fd6d503620c8eeb08c34a52744252825cb68d6aab",
+  "reduced_midi_sha256": "a787559d51e03022d115ce0cdf6482a958fa103a85eb1c129c31ca6cc9317d03",
+  "wav_sha256": "6c9d757ad2bd93a3ff780ca52a25159c5b288efc64def3fab430c2861b9bc4c4",
+  "mp3_sha256": "3f0a2243cae7a8167b624ae2bad255c05cf95bec3b05368d90e4e58bb11b8e80"
+}

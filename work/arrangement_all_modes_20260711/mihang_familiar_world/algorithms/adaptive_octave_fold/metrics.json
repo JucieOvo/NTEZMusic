@@ -1,0 +1,25 @@
+{
+  "song_slug": "mihang_familiar_world",
+  "mode": "adaptive_octave_fold",
+  "score": 0.3884215076688869,
+  "metrics": {
+    "melody": 0.26832107850387943,
+    "rhythm": 0.12797992471769135,
+    "bass": 0.36637235545819974,
+    "voice_register": 0.2673457387866363,
+    "harmony": 0.5760202407836914,
+    "audio_features": 0.9885077774524689
+  },
+  "weights": {
+    "bass": 0.15,
+    "melody": 0.25,
+    "voice_register": 0.1,
+    "harmony": 0.2,
+    "audio_features": 0.1,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "ae7e95bd8baeda6c56dc51155ed2624b03c39c00219d149db51b86215a26bebe",
+  "reduced_midi_sha256": "9fb38cd49c8e43ef3a4f4f70532d44973e6a179e3fe2431e85c403dea7417c1e",
+  "wav_sha256": "8688d06922f500856f00fcb64ca19a74bb8b2df8a822bda694b6f197d6d98d04",
+  "mp3_sha256": "2a544cae7612dc7c4014e4549eec5fc2d1144b50e335665165894492a4b344fb"
+}

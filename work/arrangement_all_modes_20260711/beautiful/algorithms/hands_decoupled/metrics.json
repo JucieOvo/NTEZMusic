@@ -1,0 +1,25 @@
+{
+  "song_slug": "beautiful",
+  "mode": "hands_decoupled",
+  "score": 0.42656099209248566,
+  "metrics": {
+    "melody": 0.2604373373507712,
+    "rhythm": 0.5035128805620609,
+    "bass": 0.277255690107338,
+    "voice_register": 0.24973385005704973,
+    "harmony": 0.4751492738723755,
+    "audio_features": 0.9915748834609985
+  },
+  "weights": {
+    "bass": 0.15,
+    "melody": 0.25,
+    "voice_register": 0.1,
+    "harmony": 0.2,
+    "audio_features": 0.1,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "eff88b15974a9dc8167d38091d0ed8a1bb58aff57b8b30f0e59455109398674a",
+  "reduced_midi_sha256": "653020f3a5940cb2905c2a7d60735503098398057d269d5254fdcc8cb9dad674",
+  "wav_sha256": "f70c75866d45c32327983ae0513cac19167622ee2692f84350791dc0c60834ba",
+  "mp3_sha256": "af2342fc5b8f26b3a00a67a395e9e6b2b31ac68e0649aa094fd356ec611388fb"
+}

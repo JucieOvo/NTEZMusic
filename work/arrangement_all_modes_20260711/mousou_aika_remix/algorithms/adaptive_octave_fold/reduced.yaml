@@ -1,0 +1,2695 @@
+song:
+  name: 妄想哀歌 Dreamydwaddie Remix
+  bpm: 117.5
+  beat_unit: 4
+playback:
+  start_delay_seconds: 3.0
+  key_press_seconds: 0.0
+keyboard:
+  high:
+    '1': q
+    '2': w
+    '3': e
+    '4': r
+    '5': t
+    '6': y
+    '7': u
+  middle:
+    '1': a
+    '2': s
+    '3': d
+    '4': f
+    '5': g
+    '6': h
+    '7': j
+  low:
+    '1': z
+    '2': x
+    '3': c
+    '4': v
+    '5': b
+    '6': n
+    '7': m
+score:
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#4 +#1 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#4 +#1]'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 6 +2 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[+2 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 6]'
+  beat: 0.25
+- notes: '[+2 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[7 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 6]'
+  beat: 0.25
+- notes: '[7 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 6 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-6 3 6 +3]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[-#5 #5 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 #1 6 +#1 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: '[+#1 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 -#4]'
+  beat: 0.25
+- notes: '[+#1 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 2 +2 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[+2 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 2]'
+  beat: 0.25
+- notes: '[+2 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 3 7 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '7'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 6]'
+  beat: 0.25
+- notes: '[7 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #5 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[3 6]'
+  beat: 0.25
+- notes: '[3 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #5 +2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#1 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 #4 +6]'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '[7 +3]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[-#4 #1 +3]'
+  beat: 0.25
+- notes: +#4
+  beat: 0.25
+- notes: '[-2 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 2 6]'
+  beat: 0.25
+- notes: '[-2 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-2 -6 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 7]'
+  beat: 0.25
+- notes: '[-3 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -7 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -6 +#1]'
+  beat: 0.25
+- notes: '[-6 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.75
+- notes: '[-3 -#5 3 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-#4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 #4 6]'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[-#4 #1]'
+  beat: 0.25
+- notes: +#4
+  beat: 0.25
+- notes: '[-2 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 2 6]'
+  beat: 0.25
+- notes: '[-2 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-2 -6 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 3 6 +#1]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[-3 -7]'
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '[-3 -6]'
+  beat: 0.25
+- notes: '[-6 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[#1 3 #5]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[#4 6 +#1]'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-#4 #1]'
+  beat: 0.25
+- notes: '[#4 +3]'
+  beat: 0.25
+- notes: '[#1 #4]'
+  beat: 0.25
+- notes: '[-#1 -3 +3]'
+  beat: 0.25
+- notes: +#4
+  beat: 0.25
+- notes: '[2 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3 +6]'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[-6 2 7 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 #1 3]'
+  beat: 0.25
+- notes: -#5
+  beat: 0.25
+- notes: '[+3 +7]'
+  beat: 0.25
+- notes: '[-7 +6]'
+  beat: 0.25
+- notes: '[-#5 3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 6 +#1]'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[3 6 +#1]'
+  beat: 0.25
+- notes: '[+#5 +7]'
+  beat: 0.25
+- notes: '[#4 6 +3]'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '[#1 3 +#4]'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[-#1 +#1]'
+  beat: 0.25
+- notes: '[3 #4]'
+  beat: 0.25
+- notes: +#4
+  beat: 0.25
+- notes: '[6 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-2 -6 2 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-7 #1]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[+3 +7]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-3 -7 2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -6 +6]'
+  beat: 0.25
+- notes: '[#1 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-#5 3 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 -#4 -6 #1 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '#5'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 +#4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 -6 2 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '#5'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '#5'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '7'
+  beat: 0.25
+- notes: '[-#1 -3 -6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '[3 6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '+1'
+  beat: 0.25
+- notes: '[-#1 -4 -#5 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+2'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[4 #5 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 #4 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 -3 -6 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 +2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-6 #1 3 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 +6]'
+  beat: 0.25
+- notes: '[-#5 3]'
+  beat: 0.25
+- notes: '[6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-3 -6 #1]'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[3 6 +#1]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-6 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +6]'
+  beat: 0.25
+- notes: '[-#1 +#5]'
+  beat: 0.25
+- notes: '[-3 -6 3 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +#5 +7]'
+  beat: 0.25
+- notes: '[-7 +6]'
+  beat: 0.25
+- notes: '[-#5 3]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-6 6]'
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '[-3 -6 #1]'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[-6 +#1]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[#1 3 #5 6]'
+  beat: 0.25
+- notes: '[+2 +7]'
+  beat: 0.25
+- notes: '[#1 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 +6]'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '[-3 -6 6 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-6 #1 3 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#5 -7 3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -6 #1 +6]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 +#5]'
+  beat: 0.25
+- notes: '[-3 -6 3 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '[-#5 3 +6]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 +#1]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-6 +2 +7]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[#1 #5 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#1 +3]'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[#4 7]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '[-6 #1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 7]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '2'
+  beat: 0.25
+- notes: +#4
+  beat: 0.25
+- notes: '[-2 6]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#4 +#1 +6]'
+  beat: 0.25
+- notes: '[+2 +7]'
+  beat: 0.25
+- notes: '[3 +#1]'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '[-3 3 +#1]'
+  beat: 0.25
+- notes: '+2'
+  beat: 0.25
+- notes: '[#1 3]'
+  beat: 0.25
+- notes: '[2 7]'
+  beat: 0.25
+- notes: '[-#5 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 #1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 -6 7 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 2 3 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-#5 -7 +3 +6]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-3 +2]'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '[3 +2]'
+  beat: 0.25
+- notes: '[-7 +7]'
+  beat: 0.25
+- notes: '[#1 6]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 2 #5]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: -#5
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 +#1 +6]'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[+#1 +#4 +6]'
+  beat: 0.25
+- notes: +#5
+  beat: 0.25
+- notes: '[-#4 #4 +#1 +3]'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '[-2 2]'
+  beat: 0.25
+- notes: '[#1 3]'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[+#1 +#4 +6]'
+  beat: 0.25
+- notes: +#5
+  beat: 0.25
+- notes: '[-6 #4 +#1 +3]'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[-3 -7 3]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[7 +6]'
+  beat: 0.25
+- notes: +#5
+  beat: 0.25
+- notes: '[-3 3 +#1]'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[-6 +3]'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '[6 +#1 +3]'
+  beat: 0.25
+- notes: +#4
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[-3 -7 3 #5]'
+  beat: 0.25
+- notes: '[#4 6]'
+  beat: 0.25
+- notes: '[-6 3]'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[#4 6]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[+#1 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 #4 +#1 +3 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 2 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +3 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 #4 +#1 +3 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -7 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[7 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 3 +#1 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 6 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +#5 +6 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#5 6 7 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-6 3]'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '[#4 6 +3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[#1 +3]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[-#4 #4 +#5 +7]'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '[-2 2 6]'
+  beat: 0.25
+- notes: '[-#1 -3]'
+  beat: 0.25
+- notes: '[#4 +#1 +3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-6 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 2 +#5 +7]'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '[-3 -7 3]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[-3 6 +3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-7 +3]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[-3 3 +#5 +7]'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '[-6 +3]'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '[6 +#1 +3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-3 +#1 +3]'
+  beat: 0.25
+- notes: '[+2 +#4]'
+  beat: 0.25
+- notes: '[7 +#1 +3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-6 3]'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '[#4 6 +3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[#1 +3]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[-#4 #4 +#5 +7]'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '[-2 2 6]'
+  beat: 0.25
+- notes: '[-#1 -3]'
+  beat: 0.25
+- notes: '[#4 +3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-6 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 2 +#5 +7]'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '[-3 -7 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #5 7 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 6 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 6 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #5 6 7 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 3 #4 6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+2 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +#5 +7]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[-7 +#1]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[+3 +7]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[7 +6]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[6 +3]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-3 +#1]'
+  beat: 0.25
+- notes: '[6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#5 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#4 +6]'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[6 +3]'
+  beat: 0.25
+- notes: '[-#4 +#1]'
+  beat: 0.25
+- notes: '[-6 +3]'
+  beat: 0.25
+- notes: '[-#1 +#4]'
+  beat: 0.25
+- notes: '[2 3 6]'
+  beat: 0.25
+- notes: '2'
+  beat: 0.25
+- notes: '[6 +6]'
+  beat: 0.25
+- notes: '+2'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +#5 +7]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[-7 +#1]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[+3 +7]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '[7 +6]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[6 +2]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[3 +6]'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#5 7 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#4 +6]'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: '[+#1 +3 +#5]'
+  beat: 0.25
+- notes: '[#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#5]'
+  beat: 0.25
+- notes: '[#1 #4 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 +#4 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 +#5 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 #1 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -6 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -7 3 +#5]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +#5]'
+  beat: 0.25
+- notes: '[-7 3 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 #5 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-#1 +#4]'
+  beat: 0.25
+- notes: '[-6 3]'
+  beat: 0.25
+- notes: '[#5 +3]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[3 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 #1 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 +#5]'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#5]'
+  beat: 0.25
+- notes: '[#1 #4 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '[-6 +2 +7]'
+  beat: 0.25
+- notes: '[-#4 #1]'
+  beat: 0.25
+- notes: '[+#1 +6]'
+  beat: 0.25
+- notes: '2'
+  beat: 0.25
+- notes: '[-#4 -6 +2 +#4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 +#4 +6]'
+  beat: 0.25
+- notes: '[-#5 -7]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-7 3 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 6]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 +6]'
+  beat: 0.25
+- notes: '[-6 3 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[3 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 +#5]'
+  beat: 0.25
+- notes: '[-#4 3 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 +#4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 3 #5]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-2 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 -6 #1 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -6 2 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 1 #1 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[1 #1 4 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.75
+- notes: '[-#4 #4 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#4 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[-3 -6 +#1 +3]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 3 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '[-7 +6]'
+  beat: 0.25
+- notes: '[-#5 3]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-6 6]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-3 -6 #1]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 3 6]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-6 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +6]'
+  beat: 0.25
+- notes: '[-#1 +#5]'
+  beat: 0.25
+- notes: '[-3 -6 3 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-2 #1 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +#5 +7]'
+  beat: 0.25
+- notes: '[-7 +6]'
+  beat: 0.25
+- notes: '[-#5 3]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-6 6]'
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '[-3 -6 #1 +7]'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[-6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #5 6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 #4 6 7 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 -3 -6 +#1 +#5]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +3 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 #1 3 #4 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -7 3 +#1 +2 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 #5 7 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 +6]'
+  beat: 0.25
+- notes: '[3 #5 7]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[6 7]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[-3 -6 #1 +6]'
+  beat: 0.25
+- notes: '[6 7]'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-6 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +3]'
+  beat: 0.25
+- notes: '[#1 +#5]'
+  beat: 0.25
+- notes: '[-3 -6 6 +#4]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 #4]'
+  beat: 0.25
+- notes: '[#1 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '+2'
+  beat: 0.25
+- notes: '[3 6 7 +#1]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '[-7 +3]'
+  beat: 0.25
+- notes: '[-#5 3 +6]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 +#1 +3]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-6 +2 +7]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-#5 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 #4]'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '[-6 #1 7]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 -6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 2 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -6 #4 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 #1 2 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 #1 3 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 2 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 -7 #1 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 #4]'
+  beat: 0.25
+- notes: '[-6 #1 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[#4 +7]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[2 #4]'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[-6 2 +3]'
+  beat: 0.25
+- notes: '[2 #4]'
+  beat: 0.25
+- notes: '[+3 +6]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#4 +3 +6]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-7 3 +3]'
+  beat: 0.25
+- notes: '[-3 +7]'
+  beat: 0.25
+- notes: '+2'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '[#5 +2]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-3 -6]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-7 2 #5]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: -#5
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 +#1 +6]'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '[6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 2 6]'
+  beat: 0.25
+- notes: '[#1 3]'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -7 3]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[+3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-3 -7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 6 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -6 +3 +#4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 3 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 #1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 2 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-3 -7 3]'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[+3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 +3]'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 3 #5]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-7 +3 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '[#1 +7]'
+  beat: 0.25
+- notes: '[-#4 +#1]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[-#4 #1 +7]'
+  beat: 0.25
+- notes: '[#4 +#1]'
+  beat: 0.25
+- notes: '[-#1 +3]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-2 +#4]'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '[#4 +3 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -7 +#5 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 #1 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+3 +7]'
+  beat: 0.25
+- notes: '[3 +1]'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '[3 6]'
+  beat: 0.25
+- notes: '[-3 +1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-3 +3 +6]'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '3'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '[#1 +7]'
+  beat: 0.25
+- notes: '[-#4 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 7 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 #4 +3 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -7 +3 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 3 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#5 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#5 6 7 +#1 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#4 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 -6 6 +#4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[3 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 #4 +#4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1]'
+  beat: 0.25
+- notes: '#5'
+  beat: 0.25
+- notes: '[-#4 #4 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 #1 #4 6 +#4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 -6]'
+  beat: 0.25
+- notes: '#5'
+  beat: 0.25
+- notes: '[-2 2]'
+  beat: 0.25
+- notes: '#5'
+  beat: 0.25
+- notes: '[-2 -6 2]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[#1 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 6]'
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '[-6 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3 6]'
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '[-#1 -4 -#5 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+2'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 4 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.75
+- notes: '[-#4 #4 +3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +6]'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '[-3 -6 +#1 +3]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 3 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#5 -7 3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -6 #1 +6]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3 #5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 -3 -6 3 +#1 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-2 #1 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +#5 +7]'
+  beat: 0.25
+- notes: '[-7 +6]'
+  beat: 0.25
+- notes: '[-#5 3]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-6 6]'
+  beat: 0.25
+- notes: '+1'
+  beat: 0.25
+- notes: '[-3 -6 #1]'
+  beat: 0.25
+- notes: '6'
+  beat: 0.25
+- notes: '[-6 +#1]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[#1 3 #5]'
+  beat: 0.25
+- notes: '[+2 +7]'
+  beat: 0.25
+- notes: '[#1 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[6 +6]'
+  beat: 0.25
+- notes: -#1
+  beat: 0.25
+- notes: '[-3 -6 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-2 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 -#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 3 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '[-#5 3 +6]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[-6 6]'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '[-3 -6 #1 +7]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#1 3 6]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: -#5
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 -3 -6 3 +#1 +#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 +2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 2 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: '[-6 #1 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#5 -7 3 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[+#1 +3]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-6 +2 +7]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[#1 #5 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#1 +3]'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[#4 7]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '[-6 #1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 7]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '2'
+  beat: 0.25
+- notes: +#4
+  beat: 0.25
+- notes: '[-2 6]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#4 +#1 +6]'
+  beat: 0.25
+- notes: '[+2 +7]'
+  beat: 0.25
+- notes: '[3 +#1]'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '[-3 3 +#1]'
+  beat: 0.25
+- notes: '+2'
+  beat: 0.25
+- notes: '[#1 3]'
+  beat: 0.25
+- notes: '[2 7]'
+  beat: 0.25
+- notes: '[-#5 +#1]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[#4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 #1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '#4'
+  beat: 0.25
+- notes: '[#1 #4]'
+  beat: 0.25
+- notes: '[#1 #4 +6]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[3 #4]'
+  beat: 0.25
+- notes: '#1'
+  beat: 0.25
+- notes: '[6 +7]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[-2 +#4]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[-2 3 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 #4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -7 3 +2 +7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 3 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[1 3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-7 2 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -6 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 #4]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 -6 #1 7]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#4 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#1 +#1]'
+  beat: 0.25
+- notes: '[6 +7]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[-2 +6]'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[-#4 -6 +#5]'
+  beat: 0.25
+- notes: +#4
+  beat: 0.25
+- notes: '[-2 +#4]'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[-6 +#1 +6]'
+  beat: 0.25
+- notes: +#5
+  beat: 0.25
+- notes: '[3 #4 6]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-#5 -7 #5 +3]'
+  beat: 0.25
+- notes: +#5
+  beat: 0.25
+- notes: '[3 +#1]'
+  beat: 0.25
+- notes: '[2 3]'
+  beat: 0.25
+- notes: '[-7 3]'
+  beat: 0.25
+- notes: '[-3 +2 +7]'
+  beat: 0.25
+- notes: '[#1 6]'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[#4 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-#1 #5 +3]'
+  beat: 0.25
+- notes: '+3'
+  beat: 0.25
+- notes: '[3 6]'
+  beat: 0.25
+- notes: +#5
+  beat: 0.25
+- notes: '[3 #4 +#1]'
+  beat: 0.25
+- notes: -#4
+  beat: 0.25
+- notes: '[-6 #1 +7]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[-#4 +6]'
+  beat: 0.25
+- notes: '[-#1 +#1]'
+  beat: 0.25
+- notes: '[6 +7]'
+  beat: 0.25
+- notes: +#1
+  beat: 0.25
+- notes: '[6 +2]'
+  beat: 0.25
+- notes: '-2'
+  beat: 0.25
+- notes: '[2 3 6]'
+  beat: 0.25
+- notes: '[2 #4]'
+  beat: 0.25
+- notes: '[+3 +#5]'
+  beat: 0.25
+- notes: '-6'
+  beat: 0.25
+- notes: '[#4 +3 +6]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '-3'
+  beat: 0.25
+- notes: '[-7 3 +3 +6]'
+  beat: 0.25
+- notes: '[-3 +7]'
+  beat: 0.25
+- notes: '+2'
+  beat: 0.25
+- notes: '-7'
+  beat: 0.25
+- notes: '[#5 +2]'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '[6 +#1]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-6 3 6]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#5 6 7 +2]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-3 -#5]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[#4 6 +#1 +6]'
+  beat: 0.25
+- notes: '0'
+  beat: 1
+- notes: '+7'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[-2 6 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: +#4
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[3 7 +3]'
+  beat: 0.25
+- notes: '0'
+  beat: 0.5
+- notes: +#1
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+7'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '+6'
+  beat: 0.25
+- notes: '0'
+  beat: 0.25
+- notes: '[2 6 +3 +6]'
+  beat: 0.25

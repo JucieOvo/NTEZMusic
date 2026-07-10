@@ -1,0 +1,25 @@
+{
+  "song_slug": "shui",
+  "mode": "attention_weighted",
+  "score": 0.5132804842401816,
+  "metrics": {
+    "melody": 0.34891051934293493,
+    "rhythm": 0.5755237045203969,
+    "bass": 0.38739321030929974,
+    "voice_register": 0.31489791276712165,
+    "harmony": 0.6104669570922852,
+    "audio_features": 0.9925594925880432
+  },
+  "weights": {
+    "bass": 0.15,
+    "melody": 0.25,
+    "voice_register": 0.1,
+    "harmony": 0.2,
+    "audio_features": 0.1,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "71653d0b22bbafbfd972baeff2c5b3015ad7a60ccd500e82b7b1b10b3eb103cf",
+  "reduced_midi_sha256": "b35abcf9db8b845fbdcb220d4168510c600b66480af893fa36a82aef58ff8cba",
+  "wav_sha256": "dbca03a86dbb06729824ca8786f54a855a0d1b9540e6ab6b247eaf295d04ca57",
+  "mp3_sha256": "743c084ba169fe91a0c573b1aa811aa7748044527272e268ab0639486ad6c736"
+}

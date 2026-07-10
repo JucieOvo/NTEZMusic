@@ -1,0 +1,25 @@
+{
+  "song_slug": "cruel_angel",
+  "mode": "attention_weighted",
+  "score": 0.4687054376004372,
+  "metrics": {
+    "melody": 0.28472444834519256,
+    "rhythm": 0.6246648793565682,
+    "bass": 0.3156040825930424,
+    "voice_register": 0.2774582046672153,
+    "harmony": 0.491109699010849,
+    "audio_features": 0.9928297698497772
+  },
+  "weights": {
+    "melody": 0.25,
+    "audio_features": 0.1,
+    "harmony": 0.2,
+    "voice_register": 0.1,
+    "bass": 0.15,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "ed7c6543a493a2fb161dbeab2b1c7c2356d5741272121f9d177af78868c64bec",
+  "reduced_midi_sha256": "3aef917b7fe95f14a5609abb9cf82f77dd6e448a445eed4887339c91f95bbd09",
+  "wav_sha256": "73da30848eaa6daec830c0aedcea53dbc96cde892fe2b7b5ac658bd8d09c83b1",
+  "mp3_sha256": "3afd1482e4dcba49755f9488842165e195ff8b10adec8bcfe9505f4a3ba75aa5"
+}

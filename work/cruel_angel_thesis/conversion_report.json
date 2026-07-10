@@ -1,0 +1,33 @@
+{
+  "audio_path": "F:\\NTEZMusic\\【Animenz】残酷天使的行动纲领 – 新世纪福音战士 OP1 钢琴版.mp3",
+  "input_midi_path": null,
+  "stem_path": "F:\\NTEZMusic\\work\\cruel_angel_thesis\\demucs\\htdemucs_6s\\【Animenz】残酷天使的行动纲领 – 新世纪福音战士 OP1 钢琴版\\piano.wav",
+  "midi_path": "F:\\NTEZMusic\\work\\cruel_angel_thesis\\midi\\【Animenz】残酷天使的行动纲领 – 新世纪福音战士 OP1 钢琴版.mid",
+  "output_yaml_path": "F:\\NTEZMusic\\config\\cruel_angel_thesis.yaml",
+  "transcription_checkpoint": null,
+  "song_name": "残酷天使的行动纲领",
+  "bpm": 120.0,
+  "quantize_beat": 0.25,
+  "score_events": 2126,
+  "allow_accidentals": true,
+  "out_of_range_policy": "octave_fold",
+  "pitch_compression_mode": "adaptive_octave_fold",
+  "melody_target_octave": 5,
+  "harmony_target_octave": 4,
+  "bass_target_octave": 3,
+  "ref_smoothing": 0.2,
+  "conversion_stats": {
+    "pitch_compression_mode": "adaptive_octave_fold",
+    "raw_note_count": 3450,
+    "output_note_count": 3058,
+    "remapped_notes": 1741,
+    "octave_moved_notes": 1741,
+    "deduplicated_notes": 0,
+    "clipped_notes": 17,
+    "max_original_chord_notes": 13,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 378,
+    "ref_pitch_trajectory_start": 65.5,
+    "ref_pitch_trajectory_end": 69.66880166384563
+  }
+}

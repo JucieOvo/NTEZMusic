@@ -1,0 +1,25 @@
+{
+  "song_slug": "beautiful",
+  "mode": "adaptive_octave_fold",
+  "score": 0.428920624372599,
+  "metrics": {
+    "melody": 0.26745171112106564,
+    "rhythm": 0.4964454976303318,
+    "bass": 0.28547637392868747,
+    "voice_register": 0.24681898519573253,
+    "harmony": 0.4805430471897125,
+    "audio_features": 0.9915663301944733
+  },
+  "weights": {
+    "bass": 0.15,
+    "melody": 0.25,
+    "voice_register": 0.1,
+    "harmony": 0.2,
+    "audio_features": 0.1,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "eff88b15974a9dc8167d38091d0ed8a1bb58aff57b8b30f0e59455109398674a",
+  "reduced_midi_sha256": "0e0c4f7f736e6d930a5c1354832d6bfc8f8bc1fff7fffceb9568ff124a9f6930",
+  "wav_sha256": "766347ccb99444b8351453a15cfa86292751da691c759e9f673be9c7587b45f5",
+  "mp3_sha256": "08b0c68d1d8cb05709fff8f9580d13659025ab4b3b686c93159866f44c9e7bd0"
+}

@@ -1,0 +1,31 @@
+{
+  "song_slug": "mihang_familiar_world",
+  "mode": "attention_weighted",
+  "reference_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\reference\\base_midi\\song.mid",
+  "bpm_sidecar": 143.6,
+  "midi_build": {
+    "output_midi_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\mihang_familiar_world\\algorithms\\attention_weighted\\reduced.mid",
+    "note_count": 2133,
+    "event_count": 1635,
+    "max_simultaneous_notes": 6,
+    "min_pitch": 49,
+    "max_pitch": 83,
+    "duration_seconds": 257.6949860724272
+  },
+  "conversion_stats": {
+    "pitch_compression_mode": "attention_weighted",
+    "raw_note_count": 2372,
+    "output_note_count": 2133,
+    "remapped_notes": 239,
+    "octave_moved_notes": 6147,
+    "deduplicated_notes": 0,
+    "clipped_notes": 239,
+    "max_original_chord_notes": 8,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 0,
+    "ref_pitch_trajectory_start": 0.0,
+    "ref_pitch_trajectory_end": 0.0,
+    "onset_clustered_notes": 0,
+    "onset_clustered_groups": 0
+  }
+}

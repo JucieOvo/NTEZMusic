@@ -1,0 +1,76 @@
+{
+  "piece": {
+    "composer": "Johann Sebastian Bach",
+    "title_maestro": "Prelude and Fugue in C Major, WTC II, BWV 846",
+    "title_display": "C 大调前奏曲与赋格 BWV 846",
+    "anomaly": "MAESTRO 元数据标题为 WTC II，但 BWV 846 实际属于《平均律钢琴曲集》第一卷（WTC I）。曲目包含完整的前奏曲与赋格，不限于前奏曲。",
+    "year": 2014,
+    "split": "train"
+  },
+  "source": {
+    "dataset": "MAESTRO v3.0.0",
+    "dataset_url": "https://magenta.withgoogle.com/datasets/maestro",
+    "csv_url": "https://storage.googleapis.com/magentadata/datasets/maestro/v3.0.0/maestro-v3.0.0.csv",
+    "doi": "https://doi.org/10.5281/zenodo.4654123",
+    "license": "CC BY-NC-SA 4.0",
+    "download_mirror": "https://huggingface.co/datasets/ddPn08/maestro-v3.0.0"
+  },
+  "files": {
+    "source_wav": {
+      "local_path": "source.wav",
+      "maestro_relative_path": "2014/MIDI-UNPROCESSED_16-18_R1_2014_MID--AUDIO_16_R1_2014_wav--1.wav",
+      "download_url": "https://huggingface.co/datasets/ddPn08/maestro-v3.0.0/resolve/main/2014/MIDI-UNPROCESSED_16-18_R1_2014_MID--AUDIO_16_R1_2014_wav--1.wav",
+      "size_bytes": 42502460,
+      "sha256": "0EA770BB7E2D15D04DAF0C53729FB47B942AB0580C80F991494455EF80C2FA14",
+      "duration_seconds": 240.943401,
+      "format": "WAV",
+      "codec": "pcm_s16le",
+      "sample_rate": 44100,
+      "channels": 2,
+      "bitrate_bps": 1411201
+    },
+    "input_mp3": {
+      "local_path": "input.mp3",
+      "derived_from": "source.wav",
+      "size_bytes": 9640271,
+      "sha256": "E72A975A2F9925D42D7C6A00FD2F1507E69C3C7BA59DCB259E82DC420AB82758",
+      "duration_seconds": 240.943401,
+      "format": "MP3",
+      "codec": "mp3",
+      "bitrate_bps": 320084,
+      "encoder": "libmp3lame",
+      "target_bitrate_kbps": 320,
+      "cbr": true,
+      "ffmpeg_version": "8.0.1-full_build-www.gyan.dev"
+    },
+    "reference_midi": {
+      "local_path": "reference_performance.midi",
+      "maestro_relative_path": "2014/MIDI-UNPROCESSED_16-18_R1_2014_MID--AUDIO_16_R1_2014_wav--1.midi",
+      "download_url": "https://huggingface.co/datasets/ddPn08/maestro-v3.0.0/resolve/main/2014/MIDI-UNPROCESSED_16-18_R1_2014_MID--AUDIO_16_R1_2014_wav--1.midi",
+      "size_bytes": 17546,
+      "sha256": "C3AE7CB330B39382F5A5BA03B33E6DC0D3FA8365511D709DC177F4A1B3682EA8",
+      "duration_seconds": 239.897,
+      "format": "MIDI (type 1)",
+      "tracks": 2,
+      "ticks_per_quarter": 384,
+      "note_on_events": 1925,
+      "note_off_events": 1925,
+      "pitch_range_midi": [36, 84],
+      "timeline_monotonic": true,
+      "type": "performance MIDI (Disklavier recording)"
+    }
+  },
+  "pairing_verification": {
+    "wav_midi_same_row": true,
+    "duration_diff_seconds": 1.046,
+    "duration_diff_note": "差异在合理尾部静音范围内",
+    "mp3_wav_duration_match": true,
+    "is_performance_midi": true,
+    "not_asap_score": true
+  },
+  "download_info": {
+    "download_date_utc": "2026-07-10",
+    "http_status": 200,
+    "download_method": "curl via HuggingFace mirror"
+  }
+}

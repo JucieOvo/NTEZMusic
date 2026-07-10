@@ -1,0 +1,43 @@
+{
+  "tool_version": "1.0.0",
+  "generated_at_iso": "2026-07-10T19:35:23Z",
+  "input_metadata": {
+    "input_path": "F:\\NTEZMusic\\work\\arrangement_benchmark_20260711\\cruel_angel\\reference\\source_work\\demucs\\htdemucs_6s\\【Animenz】残酷天使的行动纲领 – 新世纪福音战士 OP1 钢琴版\\piano.wav",
+    "input_filename": "piano.wav",
+    "input_size_bytes": 52462816,
+    "original_sample_rate": 44100,
+    "duration_seconds": 297.408005
+  },
+  "input_sha256": "4BE4B3B36ECACF99E14BFBF374442311EAD180C728D765D43E4A0C77FA7F9BDC",
+  "checkpoint_path": "C:\\Users\\15311\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\transkun\\pretrained\\2.0.pt",
+  "checkpoint_sha256": "50A80010EFFC2A59FFCD068A95CD2B29BD7F23A27A3515BC3CCD209C89A3D44C",
+  "model_sampling_rate_hz": 44100,
+  "segment_settings": {
+    "segment_hop_size_seconds": 8.0,
+    "segment_size_seconds": 16.0
+  },
+  "dependency_versions": {
+    "torch": "2.7.1+cu118",
+    "transkun": "2.0.1",
+    "librosa": "0.11.0",
+    "soxr": "1.0.0",
+    "mido": "1.3.3",
+    "pretty_midi": "0.2.11",
+    "moduleconf": "0.1.4"
+  },
+  "gpu_info": {
+    "cuda_available": true,
+    "device_used": "cuda",
+    "gpu_count": 1,
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "cuda_version": "11.8",
+    "total_memory_gb": 24.0
+  },
+  "event_classification": {
+    "total_events": 3613,
+    "midi_note_count": 3389,
+    "cc_event_count": 224
+  },
+  "output_midi_sha256": "ED7C6543A493A2FB161DBEAB2B1C7C2356D5741272121F9D177AF78868C64BEC",
+  "output_notes_json_sha256": "ED53DB7F125711DA50C2B70FA35691BD73166429D3998FD83225164A1687CFE3"
+}

@@ -1,0 +1,33 @@
+{
+  "audio_path": "F:\\NTEZMusic\\ただ声一つ (只想说一声) - ロクデナシ.mp3",
+  "input_midi_path": null,
+  "stem_path": "F:\\NTEZMusic\\work\\tada_koe_hitotsu\\demucs\\htdemucs_6s\\ただ声一つ (只想说一声) - ロクデナシ\\piano.wav",
+  "midi_path": "F:\\NTEZMusic\\work\\tada_koe_hitotsu\\midi\\ただ声一つ (只想说一声) - ロクデナシ.mid",
+  "output_yaml_path": "F:\\NTEZMusic\\config\\tada_koe_hitotsu.yaml",
+  "transcription_checkpoint": null,
+  "song_name": "ただ声一つ",
+  "bpm": 120.0,
+  "quantize_beat": 0.25,
+  "score_events": 1172,
+  "allow_accidentals": true,
+  "out_of_range_policy": "octave_fold",
+  "pitch_compression_mode": "adaptive_octave_fold",
+  "melody_target_octave": 5,
+  "harmony_target_octave": 4,
+  "bass_target_octave": 3,
+  "ref_smoothing": 0.2,
+  "conversion_stats": {
+    "pitch_compression_mode": "adaptive_octave_fold",
+    "raw_note_count": 3172,
+    "output_note_count": 2525,
+    "remapped_notes": 1682,
+    "octave_moved_notes": 1682,
+    "deduplicated_notes": 0,
+    "clipped_notes": 26,
+    "max_original_chord_notes": 12,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 621,
+    "ref_pitch_trajectory_start": 65.5,
+    "ref_pitch_trajectory_end": 74.3047197239606
+  }
+}

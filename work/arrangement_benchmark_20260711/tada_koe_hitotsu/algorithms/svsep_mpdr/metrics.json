@@ -1,0 +1,25 @@
+{
+  "song_slug": "tada_koe_hitotsu",
+  "mode": "svsep_mpdr",
+  "score": 0.5287663116492964,
+  "metrics": {
+    "melody": 0.34167112278375267,
+    "rhythm": 0.7337615988579587,
+    "bass": 0.41034611086662964,
+    "voice_register": 0.33323192552489245,
+    "harmony": 0.5119709968566895,
+    "audio_features": 0.9932690262794495
+  },
+  "weights": {
+    "melody": 0.25,
+    "audio_features": 0.1,
+    "harmony": 0.2,
+    "voice_register": 0.1,
+    "bass": 0.15,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "2f2e82e2578074b95e81337f5245f394c672d11efbf206417cc675ab42523196",
+  "reduced_midi_sha256": "e72236595db8ccefff52d3a0f9e2dde5ed23efb2f7842e56a3118826c1b314a3",
+  "wav_sha256": "a36ff971f0c9b73361d0caf488975e0c3bed29ef5afe0baae2205d5b30f4fdbb",
+  "mp3_sha256": "8a1fff8ca81b40ba3ad4cfc446715509b25d3a767d2fc203230e397b38915f81"
+}

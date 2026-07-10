@@ -1,0 +1,43 @@
+{
+  "tool_version": "1.0.0",
+  "generated_at_iso": "2026-07-10T21:04:58Z",
+  "input_metadata": {
+    "input_path": "F:\\NTEZMusic\\work\\arrangement_all_modes_20260711\\beautiful\\reference\\source_work\\demucs\\htdemucs_6s\\audio_Beautiful\\piano.wav",
+    "input_filename": "piano.wav",
+    "input_size_bytes": 44617772,
+    "original_sample_rate": 44100,
+    "duration_seconds": 252.934966
+  },
+  "input_sha256": "2D14EB4FEFCD338B9652E1EFBE7C4F738D232A873663F62ABFA4D71224BF722B",
+  "checkpoint_path": "C:\\Users\\15311\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\transkun\\pretrained\\2.0.pt",
+  "checkpoint_sha256": "50A80010EFFC2A59FFCD068A95CD2B29BD7F23A27A3515BC3CCD209C89A3D44C",
+  "model_sampling_rate_hz": 44100,
+  "segment_settings": {
+    "segment_hop_size_seconds": 8.0,
+    "segment_size_seconds": 16.0
+  },
+  "dependency_versions": {
+    "torch": "2.7.1+cu118",
+    "transkun": "2.0.1",
+    "librosa": "0.11.0",
+    "soxr": "1.0.0",
+    "mido": "1.3.3",
+    "pretty_midi": "0.2.11",
+    "moduleconf": "0.1.4"
+  },
+  "gpu_info": {
+    "cuda_available": true,
+    "device_used": "cuda",
+    "gpu_count": 1,
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "cuda_version": "11.8",
+    "total_memory_gb": 24.0
+  },
+  "event_classification": {
+    "total_events": 2081,
+    "midi_note_count": 1893,
+    "cc_event_count": 188
+  },
+  "output_midi_sha256": "EFF88B15974A9DC8167D38091D0ED8A1BB58AFF57B8B30F0E59455109398674A",
+  "output_notes_json_sha256": "DF3DA40D5770CE62D2BEEB8756C895D4B61055155279C38E699F3BC04304133E"
+}

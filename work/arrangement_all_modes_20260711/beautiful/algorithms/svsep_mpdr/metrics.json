@@ -1,0 +1,25 @@
+{
+  "song_slug": "beautiful",
+  "mode": "svsep_mpdr",
+  "score": 0.43023773272807064,
+  "metrics": {
+    "melody": 0.28047241683523333,
+    "rhythm": 0.4925639500297442,
+    "bass": 0.3050132993265824,
+    "voice_register": 0.2478004908345764,
+    "harmony": 0.4594685137271881,
+    "audio_features": 0.9918109178543091
+  },
+  "weights": {
+    "bass": 0.15,
+    "melody": 0.25,
+    "voice_register": 0.1,
+    "harmony": 0.2,
+    "audio_features": 0.1,
+    "rhythm": 0.2
+  },
+  "reference_midi_sha256": "eff88b15974a9dc8167d38091d0ed8a1bb58aff57b8b30f0e59455109398674a",
+  "reduced_midi_sha256": "53ef625ef545f5bb325b2cb6381b6b9537b1472e64509880c8c9d50ffce9af01",
+  "wav_sha256": "fa4db63be57aaac004837da434afce274afde290ca668bfc6a6814977e75dda9",
+  "mp3_sha256": "9733ec3d0fb5f24ee1f3382c5e095293822da9b9abcb08c1af32b399e2c1c0db"
+}

@@ -1,0 +1,33 @@
+{
+  "audio_path": "F:\\NTEZMusic\\Beautiful World - 宇多田光.flac",
+  "input_midi_path": null,
+  "stem_path": "F:\\NTEZMusic\\work\\beautiful_world\\demucs\\htdemucs_6s\\Beautiful World - 宇多田光\\piano.wav",
+  "midi_path": "F:\\NTEZMusic\\work\\beautiful_world\\midi\\Beautiful World - 宇多田光.mid",
+  "output_yaml_path": "F:\\NTEZMusic\\config\\beautiful_world.yaml",
+  "transcription_checkpoint": null,
+  "song_name": "Beautiful World",
+  "bpm": 120.0,
+  "quantize_beat": 0.25,
+  "score_events": 1651,
+  "allow_accidentals": true,
+  "out_of_range_policy": "octave_fold",
+  "pitch_compression_mode": "adaptive_octave_fold",
+  "melody_target_octave": 5,
+  "harmony_target_octave": 4,
+  "bass_target_octave": 3,
+  "ref_smoothing": 0.2,
+  "conversion_stats": {
+    "pitch_compression_mode": "adaptive_octave_fold",
+    "raw_note_count": 3615,
+    "output_note_count": 3290,
+    "remapped_notes": 2156,
+    "octave_moved_notes": 2156,
+    "deduplicated_notes": 0,
+    "clipped_notes": 79,
+    "max_original_chord_notes": 11,
+    "max_output_chord_notes": 6,
+    "collisions_avoided": 246,
+    "ref_pitch_trajectory_start": 65.5,
+    "ref_pitch_trajectory_end": 63.04441204615966
+  }
+}

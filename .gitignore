@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE 与开发工具
+.claude/
+.sisyphus/
+.superpowers/
+.vscode/
+.idea/
+
+# 大型音频文件（>100 MB 无法推送 GitHub）
+*.flac
+*.mp3
+*.wav
+
+# SoundFont 音源（1.2 GB）
+work/*/soundfont/
+
+# Demucs 分轨音频（体积巨大）
+work/*/demucs/
+work/*/source_work/
+
+# Claude 配置
+.claude/
+
+# 临时文件
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini
